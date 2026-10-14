@@ -1,0 +1,40 @@
+
+.dashboard-layout {
+  display: flex;
+}
+
+/* Main content area */
+.dashboard-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin-left: 240px; /* same as sidebar width */
+  margin-top: 64px; /* navbar height */
+  transition: margin-left 0.3s ease;
+}
+
+.dashboard-content.collapsed {
+  margin-left: 60px; /* collapsed sidebar width */
+}
+
+.dashboard-main {
+  flex: 1;
+  padding: 20px;
+  background-color: #fafbfc;
+  min-height: calc(100vh - 64px - 50px); /* subtract navbar + footer heights */
+  overflow: visible; /* remove unnecessary scroll */
+}
+
+/* Footer */
+.dashboard-content footer {
+  flex-shrink: 0;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 900px) {
+  .dashboard-content,
+  .dashboard-content.collapsed {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,413 @@
+/* ===================================
+   Enhanced Product Table Styles - Final Version
+   Theme: Light Cyan (#20BFA5)
+   =================================== */
+
+/* Wrapper */
+.et-wrapper {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #222;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* ===================================
+   Toolbar Styles
+   =================================== */
+.MuiToolbar-root {
+  padding: 16px 24px !important;
+  border-bottom: 2px solid #20bfa5 !important;
+  background-color: #e6fdf8 !important;
+}
+
+/* Toolbar Title - Make it BOLD */
+.MuiToolbar-root .MuiTypography-h6 {
+  font-weight: 700 !important;
+  color: #1a1a1a !important;
+  font-size: 1.25rem !important;
+  letter-spacing: -0.02em;
+}
+
+/* Filter Controls */
+.MuiToolbar-root .MuiTextField-root,
+.MuiToolbar-root .MuiFormControl-root {
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+
+.MuiToolbar-root .MuiInputBase-root {
+  font-size: 0.875rem;
+  background-color: #fff;
+}
+
+.MuiToolbar-root .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #20BFA5 !important;
+}
+
+.MuiToolbar-root .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #20BFA5 !important;
+}
+
+.MuiToolbar-root .MuiInputLabel-root.Mui-focused {
+  color: #20BFA5 !important;
+}
+
+/* Dropdown Menu Items */
+.MuiMenuItem-root:hover {
+  background-color: #e6fdf8 !important;
+}
+
+.MuiMenuItem-root.Mui-selected {
+  background-color: #20BFA5 !important;
+  color: #fff !important;
+}
+
+.MuiMenuItem-root.Mui-selected:hover {
+  background-color: #1aa38f !important;
+}
+
+/* ===================================
+   Table Container
+   =================================== */
+.MuiTableContainer-root {
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(32,191,165,0.2);
+}
+
+/* ===================================
+   Paper Component
+   =================================== */
+.MuiPaper-root {
+  border-radius: 12px !important;
+  border: 1px solid #20BFA5 !important;
+  box-shadow: 0 2px 6px rgba(32,191,165,0.2) !important;
+  overflow: hidden;
+}
+
+/* ===================================
+   Table Head - Light Cyan Theme
+   =================================== */
+.MuiTableHead-root .MuiTableCell-root {
+  background-color: #e6fdf8 !important;
+  font-weight: 700 !important;
+  font-size: 0.875rem !important;
+  color: #1a1a1a !important;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid #18a893 !important;
+  padding: 16px 12px !important;
+  white-space: nowrap;
+}
+
+/* Sort Label in Header */
+.MuiTableHead-root .MuiTableSortLabel-root {
+  font-weight: 700 !important;
+  color: #1a1a1a !important;
+}
+
+.MuiTableHead-root .MuiTableSortLabel-root:hover {
+  color: #20BFA5 !important;
+}
+
+.MuiTableHead-root .MuiTableSortLabel-root.Mui-active {
+  color: #20BFA5 !important;
+  font-weight: 800 !important;
+}
+
+.MuiTableHead-root .MuiTableSortLabel-icon {
+  opacity: 1 !important;
+  color: #20BFA5 !important;
+}
+
+/* ===================================
+   Table Body
+   =================================== */
+.MuiTableBody-root .MuiTableCell-root {
+  padding: 12px !important;
+  font-size: 0.875rem;
+  color: #333;
+  border-bottom: 1px solid #f0f0f0 !important;
+}
+
+/* Hover Effect on Rows - Light Cyan */
+.MuiTableBody-root .MuiTableRow-root:hover {
+  background-color: #e6fdf8 !important;
+  transition: background-color 0.2s ease;
+}
+
+/* Serial Number Column */
+.MuiTableBody-root .MuiTableCell-root:first-child {
+  font-weight: 600;
+  color: #666;
+}
+
+/* ===================================
+   Avatar / Image Styles
+   =================================== */
+.MuiAvatar-root {
+  border: 2px solid #20BFA5 !important;
+  box-shadow: 0 2px 4px rgba(32,191,165,0.2) !important;
+}
+
+/* ===================================
+   Product Name - Make it BOLD
+   =================================== */
+.MuiTableBody-root .MuiTableCell-root:nth-child(3) {
+  font-weight: 600 !important;
+  color: #1a1a1a !important;
+}
+
+/* ===================================
+   Price Styling - Light Cyan Theme
+   =================================== */
+.et-price-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.et-price-old {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 0.75rem;
+}
+
+.et-price-new {
+  color: #20BFA5 !important;
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+/* ===================================
+   Rating Stars
+   =================================== */
+.MuiRating-root {
+  color: #ffa726 !important;
+}
+
+.MuiRating-icon {
+  font-size: 1rem !important;
+}
+
+/* ===================================
+   Action Buttons - Light Cyan Theme
+   =================================== */
+.MuiIconButton-root {
+  padding: 8px !important;
+  transition: all 0.2s ease;
+}
+
+/* View Button - Light Cyan */
+.MuiIconButton-root:has(.MuiSvgIcon-root[data-testid="VisibilityIcon"]) {
+  color: #20BFA5;
+}
+
+.MuiIconButton-root:has(.MuiSvgIcon-root[data-testid="VisibilityIcon"]):hover {
+  background-color: rgba(32, 191, 165, 0.1) !important;
+  color: #1aa38f;
+  transform: scale(1.1);
+}
+
+/* Delete Button */
+.MuiIconButton-root:has(.MuiSvgIcon-root[data-testid="DeleteIcon"]) {
+  color: #d32f2f;
+}
+
+.MuiIconButton-root:has(.MuiSvgIcon-root[data-testid="DeleteIcon"]):hover {
+  background-color: rgba(211, 47, 47, 0.08) !important;
+  transform: scale(1.1);
+}
+
+/* ===================================
+   Tooltip
+   =================================== */
+.MuiTooltip-tooltip {
+  font-size: 0.75rem !important;
+  background-color: #333 !important;
+  padding: 6px 12px !important;
+}
+
+/* ===================================
+   Pagination - Light Cyan Theme
+   =================================== */
+.MuiTablePagination-root {
+  border-top: 2px solid #20bfa5 !important;
+  background-color: #e6fdf8 !important;
+}
+
+.MuiTablePagination-toolbar {
+  padding: 12px 16px !important;
+}
+
+.MuiTablePagination-displayedRows {
+  font-weight: 600 !important;
+  color: #1a1a1a !important;
+  font-size: 0.875rem !important;
+}
+
+.MuiTablePagination-selectLabel {
+  font-weight: 600 !important;
+  color: #1a1a1a !important;
+  font-size: 0.875rem !important;
+}
+
+.MuiTablePagination-actions button {
+  color: #20BFA5 !important;
+}
+
+.MuiTablePagination-actions button:hover {
+  color: #1aa38f !important;
+  background-color: rgba(32, 191, 165, 0.08) !important;
+}
+
+/* ===================================
+   Dense Mode Toggle - Light Cyan Theme
+   =================================== */
+.MuiFormControlLabel-root {
+  margin-top: 12px;
+  margin-left: 8px;
+}
+
+.MuiFormControlLabel-label {
+  font-weight: 600 !important;
+  color: #555 !important;
+  font-size: 0.875rem !important;
+}
+
+.MuiSwitch-root .MuiSwitch-switchBase.Mui-checked {
+  color: #20BFA5 !important;
+}
+
+.MuiSwitch-root .MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track {
+  background-color: #20BFA5 !important;
+}
+
+/* ===================================
+   Dense Table Mode
+   =================================== */
+.MuiTable-root.MuiTable-sizeSmall .MuiTableCell-root {
+  padding: 8px !important;
+  font-size: 0.8125rem !important;
+}
+
+.MuiTable-root.MuiTable-sizeSmall .MuiTableHead-root .MuiTableCell-root {
+  padding: 12px 8px !important;
+  font-size: 0.8125rem !important;
+}
+
+/* ===================================
+   No Data Message
+   =================================== */
+.et-no-data,
+.MuiTableBody-root .MuiTableCell-root[align="center"] {
+  text-align: center;
+  padding: 48px 24px !important;
+  color: #666;
+  font-size: 0.9375rem;
+  font-weight: 500;
+}
+
+/* ===================================
+   Loading State - Light Cyan Theme
+   =================================== */
+.MuiCircularProgress-root {
+  color: #20BFA5 !important;
+}
+
+/* ===================================
+   Stock Badge Styles
+   =================================== */
+.stock-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.stock-badge.in-stock {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.stock-badge.low-stock {
+  background-color: #fff3e0;
+  color: #e65100;
+}
+
+.stock-badge.out-of-stock {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+/* ===================================
+   Category Badge - Light Cyan Theme
+   =================================== */
+.category-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  background-color: #e6fdf8;
+  color: #20BFA5;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+/* ===================================
+   Responsive Adjustments
+   =================================== */
+@media (max-width: 768px) {
+  .MuiToolbar-root {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  
+  .MuiToolbar-root .MuiTypography-h6 {
+    width: 100%;
+  }
+  
+  .MuiTableContainer-root {
+    overflow-x: auto;
+  }
+}
+
+/* ===================================
+   Additional Light Cyan Theme Enhancements
+   =================================== */
+
+/* Focus states for inputs */
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #20BFA5 !important;
+  border-width: 2px !important;
+}
+
+/* Select dropdown arrow */
+.MuiSelect-icon {
+  color: #20BFA5 !important;
+}
+
+/* Table cell transitions */
+.MuiTableCell-root {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Scrollbar styling for webkit browsers */
+.MuiTableContainer-root::-webkit-scrollbar {
+  height: 8px;
+}
+
+.MuiTableContainer-root::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 4px;
+}
+
+.MuiTableContainer-root::-webkit-scrollbar-thumb {
+  background: #20BFA5;
+  border-radius: 4px;
+}
+
+.MuiTableContainer-root::-webkit-scrollbar-thumb:hover {
+  background: #1aa38f;
+}

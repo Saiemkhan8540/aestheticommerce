@@ -1,0 +1,44 @@
+.back-nav-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  background: transparent;
+  color: #4b5563;
+  margin-bottom: 1rem;
+}
+
+.back-nav-btn:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: #000;
+}
+
+.back-nav-btn.variant-outline {
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+}
+
+.back-nav-btn.variant-outline:hover {
+  border-color: #000;
+  background-color: #f9fafb;
+}
+
+.back-icon {
+  flex-shrink: 0;
+}
+
+.back-label {
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .back-nav-btn {
+    padding: 6px 10px;
+  }
+}

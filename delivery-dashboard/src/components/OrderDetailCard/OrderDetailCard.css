@@ -1,0 +1,242 @@
+.order-detail-card {
+
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 2px solid #e5e7eb;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.order-detail-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    border-bottom: 2px solid #e5e7eb;
+}
+
+.order-detail-id {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: monospace;
+    color: black;
+    margin: 0;
+}
+
+.order-detail-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    color: #1a1a1a;
+}
+
+.status-badge1 {
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+    white-space: nowrap;
+    background-color: #6b7280;
+    /* Default gray background */
+    display: inline-block;
+}
+
+.status-shipped {
+    background-color: #3b82f6;
+}
+
+.status-out-for-delivery {
+    background-color: #f59e0b;
+}
+
+.status-delivered {
+    background-color: #10b981;
+}
+
+.status-cancelled {
+    background-color: #e74f4f;
+}
+
+.status-unknown {
+    background-color: #6b7280;
+}
+
+.order-detail-card-content {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.order-detail-product-section {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.order-detail-image-container {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 12px;
+    background-color: #f9fafb;
+    flex-shrink: 0;
+}
+
+.order-detail-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.order-detail-product-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.order-detail-product-detail {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.order-detail-detail-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #6b7280;
+}
+
+.order-detail-detail-value {
+    font-size: 14px;
+    color: #1a1a1a;
+}
+
+.order-detail-separator {
+    height: 1px;
+    background-color: #e5e7eb;
+    width: 100%;
+}
+
+.order-detail-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.order-detail-section-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+}
+
+.order-detail-text {
+    color: #6b7280;
+    margin: 0;
+    padding-left: 24px;
+    line-height: 1.5;
+}
+
+.order-detail-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+}
+
+.order-detail-info-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.order-detail-info-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0;
+}
+
+.order-detail-info-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.order-detail-info-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #6b7280;
+}
+
+.order-detail-icon {
+    margin-top: 0.2rem;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+    .order-detail-card-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .order-detail-product-section {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .order-detail-image-container {
+        width: 100%;
+        max-width: 200px;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    .order-detail-grid {
+        grid-template-columns: 1fr;
+    }
+}
+.order-detail-link {
+    color: #6b7280;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.order-detail-link:hover {
+    color: #1a9f8c;
+    text-decoration: underline;
+}
+
+/* Cancellation Info */
+.order-detail-cancel-title {
+  color: #ef4444;
+}
+
+.order-detail-cancel-info {
+  padding-left: 24px;
+}
+
+.order-detail-cancel-by,
+.order-detail-cancel-reason {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #6b7280;
+  line-height: 1.5;
+}
+
+.order-detail-cancel-by strong,
+.order-detail-cancel-reason strong {
+  color: #1a1a1a;
+  font-weight: 600;
+}

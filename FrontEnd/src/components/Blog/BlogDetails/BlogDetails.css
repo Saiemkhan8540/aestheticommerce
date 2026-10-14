@@ -1,0 +1,52 @@
+.blog-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.blog-image {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-title {
+  font-size: 36px;
+  margin-top: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.blog-meta {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 30px;
+}
+
+.blog-author {
+  font-weight: 600;
+  color: #444;
+}
+
+.blog-date {
+  color: #666;
+}
+
+.blog-content {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+}
+
+.loading {
+  text-align: center;
+  padding: 50px;
+  font-size: 24px;
+  color: #555;
+}

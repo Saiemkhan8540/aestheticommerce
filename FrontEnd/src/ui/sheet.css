@@ -1,0 +1,183 @@
+/* Overlay */
+.sheet-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Base Content Styles */
+.sheet-content {
+  position: fixed;
+  z-index: 50;
+  padding: 0.6rem;
+  background-color: #fff;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Side Positions */
+.sheet-content-top {
+  top: 0;
+  left: 0;
+  right: 0;
+  /* border-bottom: 1px solid #ccc; */
+}
+
+.sheet-content-bottom {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top: 1px solid #ccc;
+}
+
+.sheet-content-left {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  /* width: 20%; */
+  /* max-width: 300px; */
+  border-right: 1px solid #ccc;
+}
+
+.sheet-content-right {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 75%;
+  max-width: 348px;
+  border-left: 1px solid #ccc;
+}
+
+/* Close Button */
+.sheet-close {
+  position: absolute;
+  top: 0.9rem;
+  right: 0.9rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+  scale: 1.2;
+}
+
+.sheet-close:hover {
+  opacity: 1;
+}
+
+.sheet-close:focus {
+  outline: 2px solid #000;
+  outline-offset: 2px;
+}
+
+/* Screen Reader Only */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Header */
+.sheet-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: center;
+}
+
+/* Footer */
+.sheet-footer {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 0.5rem;
+  align-items: flex-end;
+}
+
+/* Title */
+.sheet-title {
+  font-Size: 1.125rem;
+  font-Weight: 600;
+  color: #000;
+}
+
+/* Description */
+.sheet-description {
+  font-Size: 0.875rem;
+  color: #666;
+}
+
+/* Responsive Breakpoints */
+
+/* Mobile devices (up to 640px) */
+@media (max-width: 640px) {
+  .sheet-content {
+    padding: 1.5rem;
+  }
+
+  .sheet-content-left,
+  .sheet-content-right {
+    width: 85%;
+    max-width: 100%;
+  }
+
+  .sheet-close {
+    top: 0.75rem;
+    right: 0.75rem;
+  }
+}
+
+/* Tablet devices (641px to 1024px) */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .sheet-content {
+    padding: 2rem;
+  }
+
+  .sheet-content-left,
+  .sheet-content-right {
+    width: 80%;
+    max-width: 400px;
+  }
+}
+
+/* Desktop devices (1025px and above) */
+@media (min-width: 1025px) {
+  .sheet-content-left {
+    max-width: 450px;
+  }
+
+  .sheet-content-right {
+    max-width: 450px;
+  }
+}
+
+/* Large screens (1440px and above) */
+@media (min-width: 1440px) {
+  .sheet-content-left,
+  .sheet-content-right {
+    max-width: 500px;
+  }
+}
+
+@media (max-width:480px) {
+  .sheet-content{
+    padding: 3.3rem;
+  }
+  .sheet-content-left .sheet-content-right {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 330px;
+    border-right: 1px solid #ccc;
+  }
+}

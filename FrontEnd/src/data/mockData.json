@@ -1,0 +1,483 @@
+[
+  {
+    "name": "Handcrafted Pottery Vase",
+    "description": "Colorful Handcrafted Pottery Vase .Vivid hand painted ceramic vase with floral design",
+    "price": 899,
+    "originalPrice": 1299,
+    "discountPercentage": 30,
+    "images": [
+      "https://ik.imagekit.io/06lzi1146/webp/image1.webp?updatedAt=1751464904521",
+      "https://ik.imagekit.io/06lzi1146/webp/image2.webp?updatedAt=1751464904484",
+      "https://ik.imagekit.io/06lzi1146/webp/image3.webp?updatedAt=1751464904581"
+    ],
+    "category": "Paper Crafts",
+    "subcategory": "Origami",
+    "rating": 4.5,
+    "inStock": true,
+    "tags": [
+      "diy",
+      "paper",
+      "origami",
+      "creative",
+      "paper crafts",
+      "Valentine Gift",
+      "House Party"
+    ],
+    "sellerName": "Priya Sharma",
+    "occupation": "seller",
+    "storeName": "Bazaryo"
+  },
+  {
+    "name": "Handcrafted Pottery soil",
+    "description": "Colorful Handcrafted Pottery soil clay Vivid, hand-painted soil clay with floral design.",
+    "price": 1399,
+    "originalPrice": 1599,
+    "discountPercentage": null,
+    "images": [
+      "https://ik.imagekit.io/06lzi1146/webp/image4.webp?updatedAt=1751464904678",
+      "https://ik.imagekit.io/06lzi1146/webp/image5.webp?updatedAt=1751464909401",
+      "https://ik.imagekit.io/06lzi1146/webp/image6.webp?updatedAt=1751464909146",
+      "https://ik.imagekit.io/06lzi1146/webp/image7.webp?updatedAt=1751464909214"
+    ],
+    "category": "Visual Arts",
+    "subcategory": "Painting",
+    "rating": 4.8,
+    "inStock": true,
+    "tags": [
+      "painting",
+      "watercolor",
+      "artist grade",
+      "Anniversary Gift",
+      "Corporate Gift"
+    ],
+    "sellerName": "Rohit Mehra",
+    "occupation": "seller",
+    "storeName": "Dukaanzo"
+  },
+  {
+    "name": "Mountain Lake Painting",
+    "description": "A breathtaking original watercolor painting capturing a tranquil lake surrounded by pine trees and majestic mountains. Perfect for modern interiors.",
+    "price": 999,
+    "originalPrice": 1200,
+    "discountPercentage": null,
+    "images": [
+      "https://ik.imagekit.io/06lzi1146/webp/image8.webp?updatedAt=1751464909129",
+      "https://ik.imagekit.io/06lzi1146/webp/image9.webp?updatedAt=1751464909324",
+      "https://ik.imagekit.io/06lzi1146/webp/image10.webp?updatedAt=1751464904677",
+      "https://ik.imagekit.io/06lzi1146/webp/image11.webp?updatedAt=1751464904607"
+    ],
+    "category": "Sculptural & 3D Crafts",
+    "subcategory": "Clay Modelling",
+    "rating": 4.3,
+    "inStock": true,
+    "tags": [
+      "clay",
+      "sculpture",
+      "handmade",
+      "diy",
+      "3d",
+      "House Party",
+      "Eid"
+    ],
+    "sellerName": "Ananya Deshmukh",
+    "occupation": "seller",
+    "storeName": "Shopwalaa"
+  },
+  {
+    "name": "Lake View Watercolor",
+    "description": "Enhance your home with tranquility and elegance. This auspicious lake view watercolor premium canvas wall painting brings harmony and timeless beauty to any space.",
+    "price": 899,
+    "originalPrice": 1399,
+    "discountPercentage": null,
+    "images": [
+      "https://ik.imagekit.io/06lzi1146/webp/image12.webp?updatedAt=1751464904487",
+      "https://ik.imagekit.io/06lzi1146/webp/image13.webp?updatedAt=1751464904635",
+      "https://ik.imagekit.io/06lzi1146/webp/image14.webp?updatedAt=1751464904458",
+      "https://ik.imagekit.io/06lzi1146/webp/image15.webp?updatedAt=1751464904764"
+    ],
+    "category": "Sculptural & 3D Crafts",
+    "subcategory": "Clay Modelling",
+    "rating": 4.3,
+    "inStock": true,
+    "tags": [
+      "clay",
+      "sculpture",
+      "handmade",
+      "diy",
+      "3d",
+      "Custom Art",
+      "Graduation"
+    ],
+    "sellerName": "Meena Joshi",
+    "occupation": "seller",
+    "storeName": "BuyBharat"
+  },
+  {
+    "name": "Madhubani Folk Art Set",
+    "description": "Authentic Madhubani folk art set with natural colors and handmade paper",
+    "price": 780,
+    "originalPrice": 1050,
+    "rating": 4.8,
+    "inStock": true,
+    "category": "Traditional & Cultural Crafts",
+    "subcategory": "Folk Art",
+    "images": [
+      "https://i.ibb.co/SDnWK685/Flux-Dev-A-beautifully-arranged-Quilling-Art-Starter-Kit-surro-3.jpg"
+    ],
+    "tags": [
+      "folk art",
+      "traditional",
+      "handmade",
+      "Festive Gift",
+      "Anniversary Gift"
+    ],
+    "sellerName": "Arjun Kapoor",
+    "occupation": "seller",
+    "storeName": "Snaplaa"
+  },
+  {
+    "name": "Professional Charcoal Drawing Set",
+    "description": "Premium charcoal drawing set for professional artists",
+    "price": 750,
+    "originalPrice": 980,
+    "rating": 4.7,
+    "inStock": true,
+    "category": "Drawing",
+    "subcategory": "Charcoal",
+    "images": [
+      "https://ideogram.ai/assets/image/lossless/response/yfpuyrrSSKy8CSSlqV2jOQ"
+    ],
+    "tags": [
+      "drawing",
+      "charcoal",
+      "professional",
+      "Corporate Gift",
+      "Graduation"
+    ],
+    "sellerName": "Kabir Verma",
+    "occupation": "seller",
+    "storeName": "PaisaPick"
+  },
+  {
+    "name": "Watercolor Paint Collection",
+    "description": "Complete watercolor set with 24 vibrant colors",
+    "price": 600,
+    "originalPrice": 760,
+    "rating": 4.9,
+    "inStock": true,
+    "category": "Painting",
+    "subcategory": "Watercolor",
+    "images": [
+      "https://ideogram.ai/assets/image/lossless/response/G1K-idlSSCSgBTCzVwjfIw"
+    ],
+    "tags": [
+      "painting",
+      "watercolor",
+      "art supplies",
+      "Wedding Gift",
+      "Christmas Eve"
+    ],
+    "sellerName": "Sanya Iyer",
+    "occupation": "seller",
+    "storeName": "Desihaat"
+  },
+  {
+    "name": "Wall Decor Collection",
+    "description": "Beautiful wall art collection for home decoration",
+    "price": 600,
+    "originalPrice": 960,
+    "rating": 4.9,
+    "inStock": true,
+    "category": "Painting",
+    "subcategory": "Wall Art",
+    "images": [
+      "https://images.pexels.com/photos/1090638/pexels-photo-1090638.jpeg"
+    ],
+    "tags": [
+      "wall decor",
+      "home",
+      "decoration",
+      "House Party",
+      "Anniversary Gift"
+    ],
+    "sellerName": "Ritika Singh",
+    "occupation": "seller",
+    "storeName": "ShopSava"
+  },
+  {
+    "name": "Linocut Printmaking Kit",
+    "description": "Complete linocut printing kit for beginners",
+    "price": 800,
+    "originalPrice": 990,
+    "rating": 4.5,
+    "inStock": true,
+    "category": "Printmaking",
+    "subcategory": "Linocut",
+    "images": [
+      "https://ideogram.ai/assets/image/lossless/response/nbnUTo2RQgO7Gh4Q3ELQJw"
+    ],
+    "tags": [
+      "printmaking",
+      "linocut",
+      "craft",
+      "Graduation",
+      "Custom Art"
+    ],
+    "sellerName": "Tanmay Rathi",
+    "occupation": "seller",
+    "storeName": "Bazaryo"
+  },
+  {
+    "name": "Ceramic Pottery Wheel Set",
+    "description": "Electric pottery wheel set for ceramic artists",
+    "price": 89.99,
+    "originalPrice": 119.99,
+    "rating": 4.6,
+    "inStock": false,
+    "category": "Traditional & Cultural Crafts",
+    "subcategory": "Pottery",
+    "images": [
+      "https://cdn.leonardo.ai/users/1d4822bc-4f00-4b69-a656-b9d83079b145/generations/3ac96f3f-daaf-4f29-96d9-b78c3272f39b/segments/2:4:1/Flux_Dev_A_beautifully_lit_vibrant_and_artistic_product_image__1.jpg"
+    ],
+    "tags": [
+      "pottery",
+      "ceramic",
+      "craft",
+      "Baby Shower",
+      "Valentine Gift"
+    ],
+    "sellerName": "Neha Thakur",
+    "occupation": "seller",
+    "storeName": "Vastraa"
+  },
+  {
+    "name": "Premium Scrapbooking Kit",
+    "description": "Complete scrapbooking kit with premium materials",
+    "price": 750,
+    "originalPrice": 940,
+    "inStock": true,
+    "category": "Paper Crafts",
+    "subcategory": "Scrapbooking",
+    "rating": 4.3,
+    "images": [
+      "https://i.ibb.co/m5ysTf92/Flux-Dev-A-beautifully-arranged-and-colorful-premium-scrapbook-3.jpg"
+    ],
+    "tags": [
+      "scrapbooking",
+      "paper craft",
+      "memory",
+      "Wedding Gift",
+      "Baby Shower"
+    ],
+    "sellerName": "Rhea Nair",
+    "occupation": "seller",
+    "storeName": "Kartva"
+  },
+  {
+    "name": "Japanese Origami Paper Pack",
+    "description": "Authentic Japanese origami paper collection",
+    "price": 730,
+    "originalPrice": 950,
+    "inStock": true,
+    "category": "Paper Crafts",
+    "subcategory": "Origami",
+    "rating": 4.4,
+    "images": [
+      "https://ideogram.ai/assets/image/lossless/response/6i3obRvqTjSXKzpJBmYGWw"
+    ],
+    "tags": [
+      "origami",
+      "paper craft",
+      "japanese",
+      "Valentine Gift",
+      "Graduation"
+    ],
+    "sellerName": "Ishaan Kapoor",
+    "occupation": "seller",
+    "storeName": "Snaplaa"
+  },
+  {
+    "name": "Quilling Art Starter Kit",
+    "description": "Beginner's quilling art kit with tools and guides",
+    "price": 800,
+    "originalPrice": 970,
+    "inStock": true,
+    "category": "Paper Crafts",
+    "subcategory": "Quilling",
+    "rating": 4.2,
+    "images": [
+      "https://i.ibb.co/VYt0Pysz/Flux-Dev-A-beautifully-arranged-Quilling-Art-Starter-Kit-laid-1.jpg"
+    ],
+    "tags": [
+      "quilling",
+      "paper craft",
+      "beginner",
+      "Festive Gift",
+      "House Party"
+    ],
+    "sellerName": "Simran Kaur",
+    "occupation": "seller",
+    "storeName": "Desihaat"
+  },
+  {
+    "name": "Handmade Card Making Set",
+    "description": "Complete set for creating handmade greeting cards",
+    "price": 770,
+    "originalPrice": 1080,
+    "inStock": true,
+    "category": "Paper Crafts",
+    "subcategory": "Card Making",
+    "rating": 4.5,
+    "images": [
+      "https://cdn.leonardo.ai/users/1d4822bc-4f00-4b69-a656-b9d83079b145/generations/727d1cd0-7bb5-4fe2-9381-fa7c56750053/segments/2:4:1/Flux_Dev_updatedpromptA_beautifully_styled_and_vibrant_image_f_1.jpg"
+    ],
+    "tags": [
+      "card making",
+      "greeting cards",
+      "paper craft",
+      "Anniversary Gift",
+      "Diwali Lights"
+    ],
+    "sellerName": "Avni Patel",
+    "occupation": "seller",
+    "storeName": "Shopwalaa"
+  },
+  {
+    "name": "Papier Mache Craft Kit",
+    "description": "Creative papier mache crafting kit for all ages",
+    "price": 760,
+    "originalPrice": 950,
+    "inStock": true,
+    "category": "Paper Crafts",
+    "subcategory": "Papier Mache",
+    "rating": 4,
+    "images": [
+      "https://fal.media/files/lion/1Mm0JJUwMAhDVBmFQg2aA_06f74f21fc384abbbc3be8a03a74cf82.jpg"
+    ],
+    "tags": [
+      "papier mache",
+      "craft",
+      "sculpture",
+      "Baby Shower",
+      "Christmas Eve"
+    ],
+    "sellerName": "Kunal Joshi",
+    "occupation": "seller",
+    "storeName": "Bazaryo"
+  },
+  {
+    "name": "Tibetan Sand Art Kit",
+    "description": "Authentic Tibetan sand art creation kit",
+    "price": 740,
+    "originalPrice": 930,
+    "inStock": true,
+    "category": "Traditional & Cultural Crafts",
+    "subcategory": "Sand Art",
+    "rating": 4.7,
+    "images": [
+      "https://cdn.leonardo.ai/users/1d4822bc-4f00-4b69-a656-b9d83079b145/generations/94433805-91e7-4513-9fbe-6e16a499f852/segments/2:4:1/Flux_Dev_updatedpromptA_vibrant_and_intricate_Tibetan_Sand_Art_1.jpg"
+    ],
+    "tags": [
+      "sand art",
+      "tibetan",
+      "meditative",
+      "Custom Art",
+      "Eid"
+    ],
+    "sellerName": "Manisha Pillai",
+    "occupation": "seller",
+    "storeName": "Vastraa"
+  },
+  {
+    "name": "7 Horses Realistic Painting",
+    "description": "Traditional seven horses painting for prosperity",
+    "price": 700,
+    "originalPrice": 1500,
+    "inStock": false,
+    "category": "Traditional & Cultural Crafts",
+    "subcategory": "Painting",
+    "rating": 4.6,
+    "images": [
+      "https://m.media-amazon.com/images/I/71XSrqToV-L._SL1200_.jpg"
+    ],
+    "tags": [
+      "painting",
+      "traditional",
+      "home decor",
+      "Wedding Gift",
+      "Diwali Lights"
+    ],
+    "sellerName": "Rajeev Bhatt",
+    "occupation": "seller",
+    "storeName": "PaisaPick"
+  },
+  {
+    "name": "Calligraphy Master Set",
+    "description": "Professional calligraphy set with ink, nibs, and practice sheets",
+    "price": 699,
+    "originalPrice": 799,
+    "inStock": true,
+    "category": "Visual Arts",
+    "subcategory": "Calligraphy & Typography",
+    "rating": 4.7,
+    "images": [
+      "https://images.pexels.com/photos/667838/pexels-photo-667838.jpeg"
+    ],
+    "tags": [
+      "calligraphy",
+      "writing",
+      "stationery",
+      "Dinner Dates",
+      "Christmas Eve"
+    ],
+    "sellerName": "Divya Sinha",
+    "occupation": "seller",
+    "storeName": "Kartva"
+  },
+  {
+    "name": "Wall Decor Collection Set",
+    "description": "Traditional wall decor collection set",
+    "price": 700,
+    "originalPrice": 1200,
+    "inStock": true,
+    "category": "Traditional & Cultural Crafts",
+    "subcategory": "Wall Art",
+    "rating": 4.6,
+    "images": [
+      "https://images.pexels.com/photos/1129413/pexels-photo-1129413.jpeg"
+    ],
+    "tags": [
+      "wall decor",
+      "traditional",
+      "home",
+      "Christmas Eve",
+      "Anniversaries"
+    ],
+    "sellerName": "Aarav Malhotra",
+    "occupation": "seller",
+    "storeName": "BuyBharat"
+  },
+  {
+    "name": "Calligraphy Master Set",
+    "description": "Professional calligraphy set with premium pens and inks",
+    "price": 780,
+    "originalPrice": 960,
+    "inStock": true,
+    "category": "Calligraphy",
+    "subcategory": "Ink Pen",
+    "rating": 4.6,
+    "images": [
+      "https://ideogram.ai/assets/image/lossless/response/BQ35Bo92S9mT_cKv3YPCdQ"
+    ],
+    "tags": [
+      "calligraphy",
+      "writing",
+      "art",
+      "Corporate Gift",
+      "Dinner Dates"
+    ],
+    "sellerName": "Nikita Rao",
+    "occupation": "seller",
+    "storeName": "Dukaanzo"
+  }
+]

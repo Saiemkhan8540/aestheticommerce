@@ -1,0 +1,85 @@
+.seller-details-page {
+  padding: 2rem;
+}
+
+.details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.seller-details-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.seller-details-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.product-list-main {
+  flex-grow: 1;
+}
+
+@media (min-width: 1024px) {
+  .seller-details-layout {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .seller-details-sidebar {
+    flex-basis: 350px;
+    flex-shrink: 0;
+  }
+}
+
+.detail-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.product-list {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.product-thumbnail {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.products-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.products-table th,
+.products-table td {
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.products-table th {
+  background-color: #f7f7f7;
+  font-weight: 600;
+}
+
+.products-table tbody tr:hover {
+  background-color: #f1f1f1;
+}

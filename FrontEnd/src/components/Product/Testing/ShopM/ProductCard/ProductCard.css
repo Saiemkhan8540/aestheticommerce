@@ -1,0 +1,388 @@
+.product-card22 {
+  position: relative;
+  width: 250px;
+  height: 390px;
+  margin:  0;
+  background: white;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-card22:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  scale: 1.1;
+  transition: 900ms;
+}
+
+.discount-badge1 {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  background: rgb(240, 56, 56);
+  color: white;
+  font-size: 0.67rem;
+  font-weight: bold;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.25rem;
+  z-index: 20;
+}
+
+.discount-badge1.with-product-badge {
+  top: 2.25rem;
+}
+
+.product-badge1 {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  max-width: calc(100% - 3.5rem);
+  background: #332636;
+  color: white;
+  font-size: 0.62rem;
+  font-weight: 700;
+  line-height: 1;
+  padding: 0.35rem 0.6rem;
+  border-radius: 50px; /* Pill shape */
+  z-index: 21;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  letter-spacing: 0.02em;
+}
+
+/* Badge Color Variations */
+.badge-gold { background: linear-gradient(135deg, #FFD700, #FFA500); color: #000; }
+.badge-blue { background: linear-gradient(135deg, #00C9FF, #92FE9D); color: #000; }
+.badge-orange { background: linear-gradient(135deg, #FF4E50, #F9D423); color: #fff; }
+.badge-purple { background: linear-gradient(135deg, #8E2DE2, #4A00E0); color: #fff; }
+.badge-pink { background: linear-gradient(135deg, #ec008c, #fc6767); color: #fff; }
+.badge-indigo { background: linear-gradient(135deg, #3f51b5, #5c6bc0); color: #fff; }
+.badge-green { background: linear-gradient(135deg, #11998e, #38ef7d); color: #fff; }
+.badge-amber { background: linear-gradient(135deg, #f2994a, #f2c94c); color: #000; }
+
+.product-badge1.secondary-badge {
+  top: 2.35rem;
+}
+
+.discount-badge1.with-two-badges {
+  top: 4.2rem;
+}
+
+.productcard-favorite-btn {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  padding: 0.25rem;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+  z-index: 10;
+  border: none;
+  cursor: pointer;
+}
+
+.productcard-favorite-btn.visible {
+  opacity: 1;
+}
+
+.productcard-favorite-btn.mobile-visible {
+  opacity: 1;
+}
+
+.productcard-favorite-btn.hidden {
+  opacity: 0;
+}
+
+.productcard-favorite-btn.active {
+  color: red;
+}
+
+.image-container {
+  position: relative;
+  height: 230px;
+  overflow: hidden;
+}
+
+.product-image5 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.1s;
+}
+
+.product-video-badge-listing {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background-color: rgba(32, 191, 165, 0.9);
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.65rem;
+  font-weight: 700;
+  z-index: 5;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.product-card-info {
+  padding: 0.4rem;
+  padding-left: 15px;
+  flex-grow: 1;
+}
+
+.product-card-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #333;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.product-card-rating {
+  margin-top: 0.7rem;
+  display: flex;
+  gap: 2px;
+}
+
+.star-icon {
+  color: #f5c518;
+}
+
+.price-stock {
+  margin-top: 0.8rem;
+}
+
+.price {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.price .actual {
+  margin-top: -0.4rem;
+  color: #111;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.price .striked {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 0.8rem;
+}
+
+.stock {
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+  font-weight: 500;
+  background-color: transparent;
+}
+
+.in-stock {
+  color: green;
+}
+
+.out-of-stock {
+  color: red;
+}
+
+.add-to-cart {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(100%);
+  background: #20bfa5;
+  color: white;
+  text-align: center;
+  padding: 0.4rem;
+  transition: transform 0.5s;
+}
+
+.add-to-cart.visible {
+  transform: translateY(0);
+}
+
+.add-to-cart button {
+  background: none;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.2px;
+}
+
+.add-to-cart button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Desktop hover behavior */
+@media (min-width: 1025px) {
+  /* .product-card22:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transform: scale(1.1);
+    transition: 900ms;
+  } */
+}
+
+/* Tablet */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .product-card22-container {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+  
+  .productcard-favorite-btn {
+    opacity: 1 !important;
+  }
+  
+  .add-to-cart {
+    transform: translateY(0);
+  }
+}
+
+/* Mobile landscape and portrait */
+@media (max-width: 768px) {
+  .product-card22-container {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+  
+  .productcard-favorite-btn {
+    opacity: 1 !important;
+  }
+  
+  .add-to-cart {
+    transform: translateY(0);
+  }
+}
+
+/* Small mobile (2 columns down to 360px) */
+@media (max-width: 600px) {
+  .product-card22 {
+    width: 100%;
+    max-width: 100%; /* Keep fluid */
+    max-height: 350px;
+    gap: 0.1px;
+    box-sizing: border-box; /* Crucial for padding/margin math */
+  }
+  
+  .product-card22:hover {
+    scale: 1;
+    transform: none;
+  }
+  
+  .image-container {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .discount-badge1 {
+    font-size: 0.5rem;
+    font-weight: bold;
+  }
+
+  .product-badge1 {
+    font-size: 0.5rem;
+    max-width: calc(100% - 2.8rem);
+  }
+
+  .discount-badge1.with-product-badge {
+    top: 1.85rem;
+  }
+
+  .product-badge1.secondary-badge {
+    top: 1.85rem;
+  }
+
+  .discount-badge1.with-two-badges {
+    top: 3.2rem;
+  }
+  
+  .product-card-title {
+    font-size: 0.67rem;
+    font-weight: 600;
+    color: #333;
+    margin-top: 0.1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .product-card-rating {
+    margin-left: 0;
+    margin-top: -0.3rem;
+    transform: scale(0.5);
+    transform-origin: left center;
+  }
+
+  .price-stock {
+    margin-top: 0.8rem;
+  }
+  
+  .price {
+    display: flex;
+    gap: 0.6rem;
+  }
+  
+  .price .actual {
+    margin-top: -0.8rem;
+    color: #111;
+    font-weight: 400;
+    font-size: 1.3rem;
+  }
+  
+  .price .striked {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 0.74rem;
+    margin-top: -0.4rem;
+  }
+  
+  .stock {
+    font-size: 0.75rem;
+    margin-top: 0.3rem;
+    font-weight: 500;
+    background-color: transparent;
+  }
+  
+  /* Always show favorite button and add to cart on mobile */
+  .productcard-favorite-btn {
+    opacity: 1 !important;
+  }
+  
+  .add-to-cart {
+    transform: translateY(0) !important;
+  }
+}
+
+/* Very small mobile (1 column below 360px) */
+@media (max-width: 359px) {
+  .product-card22 {
+    width: 100%;
+    max-width: 100%; 
+    max-height: 380px;
+    gap: 0.1px;
+    box-sizing: border-box;
+  }
+}

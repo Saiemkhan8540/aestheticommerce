@@ -1,0 +1,61 @@
+/* Radio Group */
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Radio Item Container */
+.radio-item-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Radio Button */
+.radio-item {
+  all: unset;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid #20bfa5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.radio-item:hover {
+  border-color: #000;
+}
+
+.radio-item:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Radio Indicator */
+.radio-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #20bfa5;
+  display: none;
+}
+
+.radio-item[data-state='checked'] .radio-indicator {
+  display: block;
+}
+
+/* Radio Label */
+.radio-label {
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Disabled State */
+.radio-item[data-disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

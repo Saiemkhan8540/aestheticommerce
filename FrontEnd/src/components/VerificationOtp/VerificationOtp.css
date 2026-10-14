@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.verifyOtp-background {
+  background-image: url("https://images.unsplash.com/photo-1581985377113-230c76371627?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.verifyOtp-container {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.05)
+  );
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 20px;
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: white;
+}
+
+.verifyOtp-container h2 {
+  margin-bottom: 20px;
+}
+
+
+.verifyOtp-container label {
+  display: block;
+  text-align: left;
+  margin: 10px 0 5px;
+}
+.verifyOtp-container .otp-inputs {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.verifyOtp-container .otp-inputs input[type="text"] {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+  /* border-bottom: 1px solid white; */
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+}
+
+.verify-otp-btu {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #333;
+  margin-top: 20px;
+}
+
+ 
+
+.verify-otp-btu:disabled {
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: not-allowed;
+}
+
+.verifyOtp-container div p {
+  cursor: pointer;
+}
+.resend-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remain-time {
+  font-size: 14px;
+  color: #ccc;
+}
+
+
+.resend-btn {
+  background: none;
+  border: none;
+  color: #20bfa5;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.resend-btn:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}

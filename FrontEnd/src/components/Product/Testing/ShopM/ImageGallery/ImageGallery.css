@@ -1,0 +1,146 @@
+
+.image-gallery-container {
+  display: flex;
+  gap: 20px;
+  position: relative;
+}
+
+/* Thumbnails Column */
+.thumbnails-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80px;
+}
+
+.thumbnail {
+  border: 2px solid #e2e8f0;
+  border-radius: 6px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  aspect-ratio: 1/1;
+}
+
+.thumbnail.active {
+  border-color: #38B2AC;
+}
+
+.thumbnail:hover {
+  border-color: #38B2AC;
+  transform: translateY(-2px);
+}
+
+.thumbnail-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Main Image */
+.main-image-container {
+  position: relative;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 100%;
+  cursor: zoom-in;
+  aspect-ratio: 1/1;
+}
+
+.main-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+/* Navigation buttons */
+.image-nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.image-nav-button:hover {
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.image-nav-button.prev {
+  left: 15px;
+}
+
+.image-nav-button.next {
+  right: 15px;
+}
+
+.image-nav-button svg {
+  width: 20px;
+  height: 20px;
+  color: #4A5568;
+}
+
+/* Zoom View */
+.zoom-view-container {
+  position: absolute;
+  top: 0;
+  left: calc(100% + 20px);
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  z-index: 20;
+  animation: fadeIn 0.3s ease;
+  display: none;
+}
+
+.zoom-view {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 1024px) {
+  .zoom-view-container {
+    display: block;
+  }
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .image-gallery-container {
+    flex-direction: column-reverse;
+  }
+  
+  .thumbnails-column {
+    flex-direction: row;
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .thumbnail {
+    min-width: 60px;
+    max-width: 80px;
+    flex: 0 0 auto;
+  }
+}

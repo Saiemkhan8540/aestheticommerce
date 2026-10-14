@@ -1,0 +1,65 @@
+.delivery-estimate-banner {
+  display: flex;
+  gap: 12px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.delivery-estimate-banner--express {
+  background-color: #f0fdf4;
+  border: 1px solid #bbf7d0;
+}
+
+.delivery-estimate-banner--standard {
+  background-color: #fffbeb;
+  border: 1px solid #fde68a;
+}
+
+.delivery-estimate-banner__icon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 2px;
+}
+
+.delivery-estimate-banner--express .delivery-estimate-banner__icon {
+  color: #10b981;
+}
+
+.delivery-estimate-banner--standard .delivery-estimate-banner__icon {
+  color: #d97706;
+}
+
+.delivery-estimate-banner__content {
+  flex: 1;
+  min-width: 0;
+}
+
+.delivery-estimate-banner__title {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 0 4px;
+}
+
+.delivery-estimate-banner--express .delivery-estimate-banner__title {
+  color: #047857;
+}
+
+.delivery-estimate-banner--standard .delivery-estimate-banner__title {
+  color: #92400e;
+}
+
+.delivery-estimate-banner__message {
+  font-size: 13px;
+  font-weight: 500;
+  margin: 0 0 4px;
+  color: #111827;
+}
+
+.delivery-estimate-banner__note {
+  font-size: 12px;
+  margin: 0;
+  color: #6b7280;
+  line-height: 1.4;
+}

@@ -1,0 +1,238 @@
+[
+  {
+    "name": "Visual Arts",
+    "subcategories": [
+      {
+        "name": "Drawing",
+        "keywords": [
+          "Birthday gift",
+          "Anniversary sketch",
+          "Custom portrait",
+          "Diwali decor",
+          "Eid keepsake"
+        ]
+      },
+      {
+        "name": "Painting",
+        "keywords": [
+          "Wall art",
+          "Diwali home decor",
+          "Baby shower painting",
+          "Personalized gift"
+        ]
+      },
+      {
+        "name": "Printmaking",
+        "keywords": [
+          "Wedding gift",
+          "Eid prints",
+          "Diwali framed art",
+          "Christmas cards"
+        ]
+      },
+      {
+        "name": "Illustration",
+        "keywords": [
+          "Personalized birthday illustration",
+          "Anniversary couple art",
+          "Diwali card designs"
+        ]
+      },
+      {
+        "name": "Calligraphy & Typography",
+        "keywords": [
+          "Eid Mubarak calligraphy",
+          "Christmas cards",
+          "Birthday name art"
+        ]
+      }
+    ]
+  },
+
+  {
+    "name": "Paper Crafts",
+    "subcategories": [
+      {
+        "name": "Origami",
+        "keywords": [
+          "Baby shower decor",
+          "Diwali hanging origami",
+          "Christmas tree decor"
+        ]
+      },
+      {
+        "name": "Scrapbooking",
+        "keywords": [
+          "Anniversary scrapbook",
+          "Birthday memories",
+          "Baby shower keepsake"
+        ]
+      },
+      {
+        "name": "Quilling",
+        "keywords": [
+          "Handmade greeting cards",
+          "Diwali rangoli quilling",
+          "Eid cards"
+        ]
+      },
+      {
+        "name": "Card Making",
+        "keywords": [
+          "Christmas cards",
+          "Eid greetings",
+          "Birthday wishes",
+          "Anniversary invitations"
+        ]
+      },
+      {
+        "name": "Paper Mache",
+        "keywords": ["Diwali diyas", "Eid lamp shades", "Christmas ornaments"]
+      }
+    ]
+  },
+
+  {
+    "name": "Traditional & Cultural Crafts",
+    "subcategories": [
+      {
+        "name": "Madhubani & Warli Art",
+        "keywords": [
+          "Diwali ethnic decor",
+          "Eid wall art",
+          "Anniversary traditional gift"
+        ]
+      },
+      {
+        "name": "Sand Art",
+        "keywords": [
+          "Birthday decor",
+          "Baby shower sand bottles",
+          "Diwali rangoli"
+        ]
+      },
+      {
+        "name": "Pottery",
+        "keywords": [
+          "Diwali diyas",
+          "Eid pottery bowls",
+          "Anniversary home gift"
+        ]
+      },
+      {
+        "name": "Indigenous Beadwork",
+        "keywords": ["Boho jewelry", "Christmas ornaments", "Eid gifts"]
+      },
+      {
+        "name": "Ikebana",
+        "keywords": [
+          "Baby shower decor",
+          "Diwali floral centerpiece",
+          "Anniversary floral gift"
+        ]
+      }
+    ]
+  },
+
+  {
+    "name": "Sculptural & 3D Crafts",
+    "subcategories": [
+      {
+        "name": "Clay Modelling",
+        "keywords": ["Diwali diyas", "Eid clay lamps", "Birthday sculptures"]
+      },
+      {
+        "name": "Stone/Metal Sculpture",
+        "keywords": [
+          "Anniversary showpiece",
+          "Diwali idol",
+          "Christmas nativity set"
+        ]
+      },
+      {
+        "name": "Papier-Mache Sculptures",
+        "keywords": ["Diwali decor", "Baby shower toys", "Eid figurines"]
+      },
+      {
+        "name": "Resin Art",
+        "keywords": [
+          "Anniversary resin frame",
+          "Birthday keychains",
+          "Diwali coaster sets"
+        ]
+      },
+      {
+        "name": "Doll Making",
+        "keywords": ["Baby shower dolls", "Christmas dolls", "Eid kids' gifts"]
+      }
+    ]
+  },
+
+  {
+    "name": "Textile Arts",
+    "subcategories": [
+      {
+        "name": "Sewing",
+        "keywords": ["Baby shower clothes", "Diwali cushion covers"]
+      },
+      {
+        "name": "Embroidery",
+        "keywords": [
+          "Eid embroidered kurta",
+          "Diwali wall hangings",
+          "Wedding gifts"
+        ]
+      },
+      {
+        "name": "Quilting",
+        "keywords": ["Baby shower blanket", "Christmas quilt"]
+      },
+      {
+        "name": "Knitting & Crocheting",
+        "keywords": ["Winter Christmas gift", "Baby shower sweaters"]
+      },
+      {
+        "name": "Weaving",
+        "keywords": ["Anniversary rug", "Diwali textile decor"]
+      }
+    ]
+  },
+
+  {
+    "name": "Decorative Arts & Mixed Media",
+    "subcategories": [
+      {
+        "name": "Upcycling / Recycling Art",
+        "keywords": [
+          "Eco-friendly Diwali gifts",
+          "Eid decor",
+          "Birthday personalized gift"
+        ]
+      },
+      {
+        "name": "Collage",
+        "keywords": ["Anniversary collage", "Birthday wall art"]
+      },
+      {
+        "name": "Wall Decor",
+        "keywords": [
+          "Diwali wall hangings",
+          "Christmas star decor",
+          "Eid lantern wall art"
+        ]
+      },
+      {
+        "name": "Mosaics",
+        "keywords": ["Christmas tableware", "Diwali mosaic lamps", "Eid plates"]
+      },
+      {
+        "name": "Enameling",
+        "keywords": [
+          "Luxury anniversary gift",
+          "Diwali pooja thali",
+          "Eid enamel jewelry"
+        ]
+      }
+    ]
+  }
+]

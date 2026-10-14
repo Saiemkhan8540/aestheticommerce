@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /cart
+Disallow: /profile
+Disallow: /order-checkout
+Disallow: /OrderList
+Disallow: /order_Details
+Disallow: /AddressList
+Disallow: /favorites
+Disallow: /seller
+
+Sitemap: https://aestheticommerce.com/sitemap.xml

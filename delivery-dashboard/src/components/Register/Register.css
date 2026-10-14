@@ -1,0 +1,124 @@
+/* Wrapper that centers the login box */
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f4f4f4, #e8f0ff);
+}
+
+/* Login card */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(32, 191, 165, 0.3);
+}
+
+.login-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: #20bfa5;
+    font-weight: 600;
+}
+
+.login-input-group {
+    margin-bottom: 1rem;
+}
+
+.login-label {
+    display: block;
+    margin-bottom: 0.4rem;
+    font-weight: 600;
+    color: #333;
+    font-size: 0.95rem;
+}
+
+.login-input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.login-input:focus {
+    outline: none;
+    border-color: #20bfa5;
+}
+
+.login-button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #20bfa5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 0.5rem;
+}
+
+.login-button:hover {
+    background-color: #1aa18b;
+    transform: translateY(-1px);
+}
+
+.login-error {
+    color: #ff3b30;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: rgba(255, 59, 48, 0.1);
+    border-radius: 6px;
+}
+
+.login-register-text {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 14px;
+    color: #6b7280;
+}
+
+.login-register-link {
+    color: #20bfa5;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-register-link:hover {
+    text-decoration: underline;
+}
+
+/* Logo container */
+.login-logo-container {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Logo image */
+.login-logo {
+    height: 60px;
+    width: auto;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .login-container {
+        max-width: 90%;
+        padding: 1.5rem;
+    }
+
+    .login-title {
+        font-size: 1.3rem;
+    }
+}

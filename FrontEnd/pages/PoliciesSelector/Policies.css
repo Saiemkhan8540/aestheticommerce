@@ -1,0 +1,35 @@
+.policies-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 24px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.policy-link {
+  padding: 8px 18px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color:  #20bfa5;
+  background-color: #f0fdf9;
+  border: 1.5px solid #b1fae8;
+  border-radius: 999px;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.policy-link:hover {
+  background-color:  #20bfa5;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(45, 201, 160, 0.25);
+}
+
+.policy-link.active {
+  background-color: #20bfa5;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(45, 201, 160, 0.25);
+  font-weight: 600;
+}

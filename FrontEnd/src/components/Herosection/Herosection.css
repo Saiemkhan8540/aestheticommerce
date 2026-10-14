@@ -1,0 +1,185 @@
+.hero-section {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.hero-container {
+  display: flex;
+  gap: 20px;
+  padding: 40px 40px;
+  justify-content: center;
+  /* background-color: #f3f3f3; */
+  flex-wrap: wrap;
+}
+
+.banner {
+  color: black;
+  border-radius: 12px;
+  padding: 40px 30px;
+  background-size: cover;
+  background-position: center ;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.banner:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.14);
+}
+
+.large-banner {
+  flex: 2 1 600px;
+  min-width: 300px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.small-banner {
+  flex: 1 1 300px;
+  min-width: 220px;
+  height: 360px;
+  align-self: flex-end;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* Typography inside banners */
+.large-banner h2 {
+  font-size: 1.25rem;
+  color: #000000;
+  font-weight: 500;
+  margin: 0 0 16px;
+}
+.large-banner p {
+  font-size: 0.85rem;
+  color: #000000;
+  font-weight: 500;
+  margin: 0;
+}
+.small-banner h3 {
+  font-size: 1.5rem;
+  color: #000000;
+  font-weight: 600;
+  margin: 0 0 16px;
+}
+.small-banner p {
+  font-size: 0.98rem;
+  color: #000000;
+  font-weight: 500;
+  margin: 0;
+}
+
+.banner-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  padding: 0.65rem 1.4rem;
+  background-color: #20bfa5;
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: 999px;
+  box-shadow: 0 4px 14px rgba(32, 191, 165, 0.28);
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  flex-shrink: 0;
+}
+
+.banner:hover .banner-cta {
+  background-color: #179e8a;
+  transform: translateY(-1px);
+}
+
+.banner-cta--small {
+  padding: 0.55rem 1.2rem;
+  font-size: 0.9rem;
+}
+
+/* >= 1440px wider containers */
+@media (min-width: 1440px) {
+  .hero-container {
+    padding: 40px 24px;
+    max-width: 14000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .large-banner, .small-banner {
+    height: 420px;
+  }
+  .large-banner h2 { font-size: 2.2rem; }
+  .large-banner p { font-size: 1.2rem; }
+}
+
+/* >= 1024px baseline */
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .hero-container {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .hero-container {
+    padding: 24px 20px;
+    gap: 16px;
+  }
+  .large-banner, .small-banner {
+    height: 320px;
+    flex: 1 1 calc(50% - 16px);
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .hero-container {
+    gap: 14px;
+    padding: 20px 16px;
+  }
+  .large-banner, .small-banner {
+    flex: 1 1 100%;
+    min-width: 0;
+    height: 260px;
+  }
+  .small-banner { align-self: stretch; }
+  .large-banner h2 { font-size: 1.4rem; }
+  .large-banner p { font-size: 0.85rem; }
+  .small-banner h3 { font-size: 1.3rem; }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+  .hero-container { padding: 16px 12px; }
+  .large-banner, .small-banner { height: 220px; padding: 25px 20px; min-width: 0; }
+  .large-banner h2 { font-size: 1.2rem; margin-bottom: 10px; }
+  .large-banner p { font-size: 0.8rem; }
+  .small-banner h3 { font-size: 1.1rem; margin-bottom: 10px; }
+  .small-banner p { font-size: 0.8rem; }
+  .banner-cta {
+    padding: 0.5rem 1rem;
+    font-size: 0.82rem;
+  }
+}
+.banner {
+  position: relative;
+  color: #0c0c0c;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.45);  
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;       
+  padding:  40px 30px;
+}

@@ -1,0 +1,242 @@
+.footer {
+  background-color: #ffffff41;  
+  padding: 4rem 2rem 2rem;
+  font-family: Tahoma;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 -1px 8px rgba(0, 0, 0, 0.05);  
+}
+
+.bg-footer {
+  position: relative;
+  background: #ffffffde url("https://www.creativehatti.com/wp-content/uploads/edd/2021/05/India-vector-skyline-01-large.jpg") no-repeat top center;
+  background-size: cover;
+  background-position: center center;
+  background-blend-mode: lighten; 
+  filter: opacity(0.85) contrast(1.0);
+  filter: contrast(100%);
+
+}
+
+
+
+.footer-logo-mobile {
+  display: none;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 2fr 1.3fr 1fr 1fr;
+  gap: 2rem;
+  max-width: 1400px;  /* increased width */
+  margin: 0 auto;
+  padding: 2rem 6rem;
+  align-items: start;
+   
+}
+
+
+.footer-logo {
+  margin-left: 2rem;
+  margin-bottom: 0rem;
+}
+
+.footer-logo-img {
+  margin-top: 22px;
+  width: 130px;
+  height: auto;
+  object-fit: contain;
+}
+
+.footer-desc {
+
+  font-size: 0.5rem;
+  color: #444444c4;
+  margin-left: 0.2rem;
+  margin-top: 1rem;
+}
+
+.footer-social-bottom {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.footer-social-bottom h3 {
+  font-size: 1.1rem;
+  color: #20bfa5;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: #20bfa5 !important;
+  font-size: 1.6rem;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1);
+  color: #131414 !important;
+}
+
+
+.footer-section h3 {
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #20bfa5;
+}
+
+.footer-section p{
+  font-size: 0.9rem;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  transform-origin: center;
+}
+
+.footer-section ul li a {
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-section ul li a:hover {
+  color: #000000;
+  transform: scale(1.1);
+  font-weight: 500;
+}
+
+
+.footer-section a {
+  text-decoration: none;
+  color: #000;
+}
+
+.footer-mail {
+  color: #000;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+  white-space: nowrap;
+}
+
+.footer-section:nth-child(4) p {
+  white-space: nowrap;
+}
+
+.footer-mail:hover {
+  color: #000;
+  transform: scale(1.05);
+  font-weight: 600;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 0.85rem;
+  margin-top: 2rem;
+  color: #666;
+  border-top: 1px solid #20bfa5;
+  padding-top: 1rem;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 1440px) {
+  .footer-container { max-width: 1260px; padding: 2rem 4rem; }
+}
+
+@media (max-width: 1024px) {
+  .footer-container { 
+    max-width: 100%; 
+    padding: 2rem 3rem;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    gap: 1.5rem;
+  }
+  .footer-logo-img { width: 150px; }
+}
+
+@media (max-width: 768px) {
+  .footer-container { 
+    grid-template-columns: 1.3fr 1fr;
+    gap: 2.5rem 1.5rem; 
+    padding: 3rem 2rem;
+  }
+  .footer-section:first-child { 
+    display: none;
+  }
+  .footer-section:nth-child(4) {
+    grid-column: 1 / -1;
+    margin-top: 0.5rem;
+  }
+  .footer-logo-mobile {
+    display: block;
+    margin: 0 auto 1rem;
+  }
+  .footer-logo-img-mob-social {
+    width: 90px; /* Reduced from 120px */
+    height: auto;
+  }
+  .footer-desc { font-size: 0.8rem; max-width: 500px; margin: 1rem auto; }
+  .footer-social-bottom { margin-top: 2rem; }
+}
+
+@media (max-width: 600px) {
+  .footer {
+    padding: 2rem 0 1rem;
+  }
+  .footer-desc{
+    display:none;
+  }
+  .track{
+    display:none;
+  }
+  .footer-container { 
+    grid-template-columns: 1.3fr 1fr;
+    gap: 2rem 1.5rem; 
+    padding: 2rem 1.5rem;
+  }
+  
+  .footer-section h3 {
+    font-size: 1rem;
+  }
+
+  .footer-logo-img {
+     width: 120px; 
+     margin-left: 0;
+  }
+  .footer-bottom { 
+    font-size: 0.8rem; 
+    margin-top: 1rem;
+    padding: 2rem 1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .footer-container { 
+    grid-template-columns: 1.3fr 1fr; 
+    gap: 2rem 1rem; 
+    padding: 2rem 1rem;
+  }
+  .footer-section {
+    margin-bottom: 1rem;
+  }
+  .footer-logo-img-mob-social { 
+    width: 80px; /* Reduced from 110px */
+  }
+  .social-icons { gap: 15px; }
+}

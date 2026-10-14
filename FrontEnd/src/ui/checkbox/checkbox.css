@@ -1,0 +1,39 @@
+.custom-checkbox {
+  height: 16px;
+  width: 16px;
+  border: 1px solid #20bfa5; /* Primary color */
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.custom-checkbox:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px #20bfa5; /* Ring color */
+}
+
+.custom-checkbox[data-state="checked"] {
+  background-color: #20bfa5;
+  color: white;
+}
+
+.custom-checkbox:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.custom-checkbox-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: currentColor;
+}
+
+.custom-check-icon {
+  width: 16px;
+  height: 16px;
+}

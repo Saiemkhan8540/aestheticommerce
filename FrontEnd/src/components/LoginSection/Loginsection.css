@@ -1,0 +1,248 @@
+/* body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-background {
+  background-image: url("https://images.unsplash.com/photo-1581985377113-230c76371627?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background: linear-gradient(
+    180deg,
+    rgba(11, 199, 199, 0.1),
+    rgba(255, 255, 255, 0.05)
+  );
+  backdrop-filter: blur(100px);
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: white;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+}
+
+.login-container label {
+  display: block;
+  text-align: left;
+  margin: 10px 0 5px;
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"],
+.login-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  padding-right: 36px;
+  border: none;
+  border-bottom: 1px solid white;
+  background: transparent;
+  color: white;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.login-container input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.password-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.password-wrapper input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-70%);
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  user-select: none;
+}
+
+.toggle-password:hover {
+  color: white;
+}
+
+.login-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85em;
+  margin: 15px 0;
+}
+
+.login-options input {
+  margin-right: 5px;
+}
+
+.login-options a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #333;
+  margin-top: 10px;
+}
+
+.login-container p {
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+.login-container a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+} */
+
+body {
+  margin: 0;
+  font-family: 'Poppins', Arial, sans-serif ;
+  background-color: #fafbfc; /* soft light grey background */
+}
+
+.login-background {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+.login-container {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 6px 28px rgba(44, 62, 80, 0.12);
+  text-align: center;
+  color: #333; 
+  border: 1px solid  #b6ece4;
+}
+
+/* Heading */
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #20BFA5;
+    font-size: 1.8rem;
+  font-weight: 700;
+}
+
+/* Labels */
+.login-container label {
+  display: block;
+  text-align: left;
+  margin: 10px 0 5px;
+  color: #555;
+  font-weight: 600;
+}
+
+/* Inputs */
+.login-container input[type="email"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1.5px solid #d2d8df;
+  background: #fff;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.login-container input:focus {
+  outline: none;
+  border-color:#20BFA5;
+  box-shadow:  0 0 0 2px rgba(32, 191, 165, 0.15);
+}
+
+/* Button */
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color:#20BFA5; 
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  margin-top: 10px;
+  transition: 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: #20BFA5;
+}
+
+/* Bottom text */
+.login-container p {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #333;
+}
+
+.login-container a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.login-container a:hover {
+  text-decoration: underline;
+}
+.login-container .forgot-link {
+  color:  #333;  
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-container .forgot-link:hover {
+  text-decoration: underline;
+}
+.login-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0 15px;
+  font-size: 0.9rem;
+}
+
+.login-options label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;   /* override default label margin */
+}
+
+.login-options input[type="checkbox"] {
+  margin: 0;
+}

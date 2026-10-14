@@ -1,0 +1,81 @@
+.seller-support-page {
+  padding: 40px 12px 0 12px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Poppins', Arial, sans-serif;
+  background: #fafbfc;
+  min-height: 100vh;
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.support-header {
+  margin-bottom: 24px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.support-header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}
+
+.support-content {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  line-height: 1.6;
+}
+
+.support-content h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.support-content p {
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.support-content a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.support-content a:hover {
+  text-decoration: underline;
+}
+
+.support-content ul {
+  padding-left: 20px;
+}
+
+.support-content li {
+  margin-bottom: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .seller-support-page {
+    padding: 20px 12px 0 12px;
+  }
+  .support-content {
+    padding: 16px;
+  }
+}

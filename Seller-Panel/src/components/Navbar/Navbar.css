@@ -1,0 +1,89 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  z-index: 200;
+}
+
+.logo {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1fc5af;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  gap: 28px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #111;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navbar-links a:hover {
+  color: #1fc5af;
+}
+
+.MuiBadge-badge {
+  background: #1fc5af !important;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.avatar-image {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+/* ----------------- LOGO STYLING ----------------- */
+.navbar-logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.navbar-logo-link:hover {
+  /* transform: scale(1.05); */
+}
+
+.navbar-logo-img-seller {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+/* Logo text styling */
+.navbar-logo-text-seller {
+  font-size: 1.4rem;
+  text-decoration: none;
+  margin-left: 0.1rem;
+  margin-top: 0.9rem;
+  color: #20BFA5;
+  font-weight: 600;
+
+}

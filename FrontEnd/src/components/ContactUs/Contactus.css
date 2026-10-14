@@ -1,0 +1,128 @@
+.contact-main {
+  display: flex;
+  height: 100vh;
+  background: url('../../Images/ContactusBG.jpg') center/cover no-repeat;
+  margin-top: -1.5rem;
+}
+
+.contact-sidebar {
+  width: 60px;
+  background: rgba(255, 255, 255, 0.1); /* semi-transparent white */
+  backdrop-filter: blur(10px);           /* blur background behind */
+  -webkit-backdrop-filter: blur(10px);   /* for Safari */
+  border-radius: 5px;                    /* rounded corners */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* subtle border */
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); /* soft shadow */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-sidebar a {
+  color: #444;
+  margin: 18px 0;
+  font-size: 28px;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.contact-sidebar a:hover {
+  color: #20BFA5;
+  transform: scale(1.15);
+}
+
+.contact-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 10%;
+
+}
+
+.icon-link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  opacity: 0;
+  background: rgba(40,40,40,0.9);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 4px 12px;
+  position: absolute;
+  left: 110%; /* Position to the right of the icon */
+  top: 50%;
+  transform: translateY(-50%);
+  white-space: nowrap;
+  transition: opacity 0.2s;
+  pointer-events: none;
+  font-size: 14px;
+  z-index: 1;
+}
+
+.icon-link:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 400px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #fff;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #555;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 16px;
+  background: rgba(255,255,255,0.8);
+  color: #222;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  background-color: #333;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #555;
+}

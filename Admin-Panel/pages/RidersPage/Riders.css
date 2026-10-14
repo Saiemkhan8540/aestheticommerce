@@ -1,0 +1,105 @@
+.riders-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background: #fafbfc;
+  min-height: 100vh;
+}
+
+.riders-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #23272d;
+}
+
+.riders-header p {
+  color: #636b7b;
+}
+
+.riders-controls {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.riders-tabs {
+  display: flex;
+  gap: 10px;
+}
+
+.tab-btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: #f0f0f0;
+  font-weight: 600;
+}
+
+.tab-btn.active {
+  background: #20BFA5;
+  color: white;
+}
+
+.riders-search {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  min-width: 250px;
+}
+
+.riders-content {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 28px rgba(0,0,0,0.08);
+}
+
+.riders-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.rider-card {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 20px;
+  background: #fff;
+  transition: 0.2s ease;
+}
+
+.rider-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+.rider-actions {
+  margin-top: 15px;
+}
+
+.btn-approve {
+  background: #20BFA5;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.btn-deactivate {
+  background: #f44336;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.no-riders {
+  text-align: center;
+  padding: 50px;
+  color: #636b7b;
+}

@@ -1,0 +1,1187 @@
+/* Custom styles for OrderList component */
+/* All class names are prefixed with 'orderlist-' to avoid conflicts */
+
+/* Line clamp utility for text truncation */
+.orderlist-line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Custom focus styles for search input */
+.orderlist-search-input {
+
+  height: 48px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  border: 1px solid #d1d5db;
+  background-color: white;
+  border-radius: 8px solid black;
+  width: 1000px;
+  outline: none;
+  transition: all 0.2s;
+  border-radius: 17px;
+  /* increase or decraese */
+}
+
+.orderlist-search-input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+/* Search wrapper and button styles */
+.search-wrapper {
+  /* padding-top: 10px; */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* space between input and button */
+
+}
+
+.search-input-wrapper {
+  flex: 1;
+  position: relative;
+
+}
+
+.orderList-search-button {
+  height: 48px;
+  padding: 0 24px;
+  background-color: #20BFA5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+}
+
+.orderList-search-button:hover {
+  background-color: #43ecd0;
+}
+
+.orderList-search-icon {
+  width: 16px;
+  height: 16px;
+}
+
+/* Orders grid and layout */
+.orders-grid {
+  display: flex;
+
+  flex-direction: column;
+  gap: 16px;
+
+}
+
+.order-content {
+  padding: 15px;
+}
+
+.order-content:hover {
+  cursor: pointer;
+}
+
+.order-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+/* Product image container */
+.product-image-container {
+  position: relative;
+  flex-shrink: 0;
+
+
+}
+
+/* Product info styles */
+.orderList-product-info {
+  flex: 1;
+}
+
+.orderList-product-title {
+  margin-top: -8px;
+  font-weight: 600;
+  color: #111827;
+  font-size: 14px;
+  /* margin-bottom: px; */
+  /* line-height: 1.4; */
+  cursor: pointer;
+  transition: color 0.2s;
+  background: none;
+  border: none;
+  text-align: left;
+  width: 100%;
+}
+
+.orderList-product-title:hover {
+  color: #080b11;
+}
+
+.orderList-product-subtitle {
+  color: #6b7280;
+  font-size: 14px;
+  margin-top: -5px;
+  margin-left: 5px;
+  /* margin-bottom: 8px; */
+}
+
+.orderlist-price-section {
+  flex-shrink: 0;
+  display: flex;
+  /* vertically align with product info */
+  justify-content: flex-start;
+  /* push price to the right */
+  min-width: 350px;
+
+}
+
+.orderlist-price-amount {
+  font-weight: 700;
+  color: #111827;
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+/* Status section */
+.status-section {
+  text-align: right;
+  flex-shrink: 0;
+  min-width: 200px;
+}
+
+.status-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 8px;
+}
+
+.status-text {
+  font-weight: 500;
+  color: #111827;
+}
+
+.status-message {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 12px;
+}
+
+.delivered-date {
+  font-size: 14px;
+  color: #059669;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+/* Star icon */
+.star-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+/* Order details grid */
+.order-details-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+@media (min-width: 1024px) {
+  .order-details-grid {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+.order-details-left {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.order-details-right {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Product details */
+.product-details {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.product-details-info {
+  flex: 1;
+}
+
+.product-details-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.product-details-subtitle {
+  color: #6b7280;
+  margin-bottom: 4px;
+}
+
+.product-details-seller {
+  color: #6b7280;
+  margin-bottom: 12px;
+}
+
+.product-details-price {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.price-main {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111827;
+}
+
+/* Timeline */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.timeline-text {
+  font-weight: 500;
+  color: #111827;
+}
+
+/* Delivery details */
+.delivery-details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.delivery-info {
+  font-size: 14px;
+}
+
+.delivery-label {
+  font-weight: 500;
+  color: #111827;
+}
+
+.delivery-value {
+  color: #6b7280;
+}
+
+/* Price details */
+.price-details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 14px;
+}
+
+.price-divider {
+  border-top: 1px solid #e5e7eb;
+  margin: 12px 0;
+}
+
+/* Custom animation for loading spinner */
+@keyframes orderlist-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.orderlist-animate-spin {
+  animation: orderlist-spin 1s linear infinite;
+}
+
+/* Custom transition for hover effects */
+.orderlist-transition-shadow {
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+/* Custom shadow utilities */
+.orderlist-shadow-sm {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.orderlist-shadow-md {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Responsive utilities */
+@media (max-width: 768px) {
+  .orderlist-min-w-200 {
+    min-width: 200px;
+  }
+
+  .orderlist-lg-col-span-2 {
+    grid-column: span 1 / span 1;
+  }
+
+  .orderlist-lg-grid-cols-3 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .search-wrapper {
+    flex-direction: column;
+  }
+
+  .order-layout {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .price-section,
+  .status-section {
+    text-align: left;
+  }
+
+  .orderlist-modal-content {
+    margin: 16px;
+    max-height: calc(100vh - 32px);
+  }
+
+  .order-details-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Custom scrollbar for modal */
+.orderlist-modal-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.orderlist-modal-content::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.orderlist-modal-content::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+
+.orderlist-modal-content::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* Additional OrderList specific styles */
+.orderlist-container {
+  min-height: 100vh;
+  background-color: #f9fafb;
+  padding: 30px 0;
+}
+
+.orderlist-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.orderlist-search-container {
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 0;
+}
+
+.orderlist-orders-section {
+  margin-bottom: 24px;
+}
+
+.orderlist-order-card {
+  background: white;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  transition: box-shadow 0.2s;
+}
+
+.orderlist-order-card:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.orderlist-product-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.orderlist-additional-items-badge {
+  position: absolute;
+  bottom: -8px;
+  right: -8px;
+  background-color: #1f2937;
+  color: white;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 9999px;
+}
+
+.orderlist-status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.orderlist-status-dot-delivered {
+  background-color: #10b981;
+}
+
+.orderlist-status-dot-shipped {
+  background-color: #3b82f6;
+}
+
+.orderlist-status-dot-dispatched {
+  background-color: #f59e0b;
+}
+
+.orderlist-status-dot-processing {
+  background-color: #f59e0b;
+}
+
+.orderlist-status-dot-cancelled {
+  background-color: #ef4444;
+}
+
+.orderlist-status-dot-pending {
+  background-color: #20BFA5;
+}
+
+.orderlist-status-dot-default {
+  background-color: #1a54c7;
+}
+
+.orderlist-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+  padding: 16px;
+}
+
+.orderlist-modal-content {
+  background: white;
+  border-radius: 8px;
+  max-width: 896px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.orderlist-modal-header {
+  padding: 24px;
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.orderlist-modal-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.orderlist-close-button {
+  color: #9ca3af;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.orderlist-close-button:hover {
+  color: #6b7280;
+}
+
+.orderlist-modal-body {
+  padding: 24px;
+}
+
+.orderlist-detail-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.orderlist-detail-card-header {
+  padding: 24px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.orderlist-detail-card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.orderlist-detail-card-content {
+  padding: 24px;
+}
+
+.orderlist-product-details-image {
+  width: 80px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  flex-shrink: 0;
+}
+
+.orderlist-timeline-dot {
+  width: 16px;
+  height: 16px;
+  background-color: #10b981;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.orderlist-delivery-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.orderlist-delivery-icon {
+  width: 20px;
+  height: 20px;
+  color: #9ca3af;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.orderlist-price-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.orderlist-price-total-row {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.orderlist-loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.orderlist-loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 4px solid #e3e3e3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  animation: orderlist-spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+.orderlist-error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.orderlist-error-icon {
+  font-size: 3rem;
+  color: #ef4444;
+  margin-bottom: 20px;
+}
+
+.orderlist-empty-state {
+  background: white;
+  border-radius: 8px;
+  padding: 32px;
+  text-align: center;
+  border: 1px solid #e5e7eb;
+}
+
+.orderlist-empty-icon {
+  color: #9ca3af;
+  margin-bottom: 16px;
+}
+
+.orderlist-review-button {
+  color: #2563eb;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.orderlist-review-button:hover {
+  color: #1d4ed8;
+}
+
+
+/* Order multiple items indicator */
+.order-multiple-items {
+  color: #6b7280;
+  font-size: 12px;
+  font-style: italic;
+  margin: 0;
+  padding: 4px 8px;
+  background-color: #f3f4f6;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+
+/* Expected delivery date */
+.expected-delivery-date {
+  font-size: 13px;
+  color: #059669;
+  background-color: #d1fae5;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin: 8px 0;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.status-message {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 12px;
+}
+
+/* Star icon */
+.star-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+/* Order details grid */
+.order-details-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+@media (min-width: 1024px) {
+  .order-details-grid {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+.order-details-left {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.order-details-right {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Product details */
+.product-details {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.product-details-info {
+  flex: 1;
+}
+
+.product-details-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.product-details-subtitle {
+  color: #6b7280;
+  margin-bottom: 4px;
+}
+
+.product-details-seller {
+  color: #6b7280;
+  margin-bottom: 12px;
+}
+
+.product-details-price {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.price-main {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111827;
+}
+
+/* Timeline */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.timeline-text {
+  font-weight: 500;
+  color: #111827;
+}
+
+/* Delivery details */
+.delivery-details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.delivery-info {
+  font-size: 14px;
+}
+
+.delivery-label {
+  font-weight: 500;
+  color: #111827;
+}
+
+.delivery-value {
+  color: #6b7280;
+}
+
+/* Price details */
+.price-details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 14px;
+}
+
+.price-divider {
+  border-top: 1px solid #e5e7eb;
+  margin: 12px 0;
+}
+
+/* Custom animation for loading spinner */
+@keyframes orderlist-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.orderlist-animate-spin {
+  animation: orderlist-spin 1s linear infinite;
+}
+
+/* Custom transition for hover effects */
+.orderlist-transition-shadow {
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+/* Custom shadow utilities */
+.orderlist-shadow-sm {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.orderlist-shadow-md {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Responsive utilities */
+@media (max-width: 768px) {
+  .orderlist-min-w-200 {
+    min-width: 200px;
+  }
+
+  .orderlist-lg-col-span-2 {
+    grid-column: span 1 / span 1;
+  }
+
+  .orderlist-lg-grid-cols-3 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .search-wrapper {
+    flex-direction: column;
+  }
+
+  .order-layout {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .price-section,
+  .status-section {
+    text-align: left;
+  }
+
+  .orderlist-modal-content {
+    margin: 16px;
+    max-height: calc(100vh - 32px);
+  }
+
+  .order-details-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .orderlist-price-section {
+    margin: 0;
+    align-items: flex-start;
+  }
+
+  .status-section {
+    text-align: left;
+    min-width: auto;
+  }
+
+  .status-indicator {
+    justify-content: flex-start;
+  }
+}
+
+/* Custom scrollbar for modal */
+.orderlist-modal-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.orderlist-modal-content::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.orderlist-modal-content::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+
+.orderlist-modal-content::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* Additional OrderList specific styles */
+.orderlist-container {
+  min-height: 100vh;
+  background-color: #f9fafb;
+  padding: 30px 0;
+}
+
+.orderlist-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.orderlist-search-container {
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 0;
+}
+
+.orderlist-orders-section {
+  margin-bottom: 24px;
+}
+
+.orderlist-order-card {
+  background: white;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  transition: box-shadow 0.2s;
+}
+
+.orderlist-order-card:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.orderlist-product-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.orderlist-additional-items-badge {
+  position: absolute;
+  bottom: -8px;
+  right: -8px;
+  background-color: #1f2937;
+  color: white;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 9999px;
+}
+
+.orderlist-status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.orderlist-status-dot-delivered {
+  background-color: #10b981;
+}
+
+.orderlist-status-dot-shipped {
+  background-color: #3b82f6;
+}
+
+.orderlist-status-dot-processing {
+  background-color: #f59e0b;
+}
+
+.orderlist-status-dot-cancelled {
+  background-color: #ef4444;
+}
+
+.orderlist-status-dot-default {
+  background-color: #6b7280;
+}
+
+.orderlist-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+  padding: 16px;
+}
+
+.orderlist-modal-content {
+  background: white;
+  border-radius: 8px;
+  max-width: 896px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.orderlist-modal-header {
+  padding: 24px;
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.orderlist-modal-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.orderlist-close-button {
+  color: #9ca3af;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.orderlist-close-button:hover {
+  color: #6b7280;
+}
+
+.orderlist-modal-body {
+  padding: 24px;
+}
+
+.orderlist-detail-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.orderlist-detail-card-header {
+  padding: 24px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.orderlist-detail-card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.orderlist-detail-card-content {
+  padding: 24px;
+}
+
+.orderlist-product-details-image {
+  width: 80px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  flex-shrink: 0;
+}
+
+.orderlist-timeline-dot {
+  width: 16px;
+  height: 16px;
+  background-color: #10b981;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.orderlist-delivery-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.orderlist-delivery-icon {
+  width: 20px;
+  height: 20px;
+  color: #9ca3af;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.orderlist-price-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.orderlist-price-total-row {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.orderlist-loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.orderlist-loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 4px solid #e3e3e3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  animation: orderlist-spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+.orderlist-error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.orderlist-error-icon {
+  font-size: 3rem;
+  color: #ef4444;
+  margin-bottom: 20px;
+}
+
+.orderlist-empty-state {
+  background: white;
+  border-radius: 8px;
+  padding: 32px;
+  text-align: center;
+  border: 1px solid #e5e7eb;
+}
+
+.orderlist-empty-icon {
+  color: #9ca3af;
+  margin-bottom: 16px;
+}
+
+.orderlist-review-button {
+  color: #2563eb;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.orderlist-review-button:hover {
+  color: #1d4ed8;
+}
+
+.orderList-strike-price {
+  text-decoration: line-through;
+  color: #9ca3af !important;
+  /* font-size: 0.9em; */
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-label="Image not available">
+  <rect width="400" height="400" fill="#f3f4f6"/>
+  <rect x="120" y="110" width="160" height="120" rx="8" fill="#e5e7eb" stroke="#d1d5db" stroke-width="2"/>
+  <circle cx="155" cy="145" r="14" fill="#d1d5db"/>
+  <path d="M130 205 L175 165 L210 190 L250 150 L270 205 Z" fill="#d1d5db"/>
+  <text x="200" y="270" text-anchor="middle" fill="#9ca3af" font-family="system-ui, -apple-system, sans-serif" font-size="16">No image</text>
+</svg>

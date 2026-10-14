@@ -1,0 +1,14 @@
+.RatingBreakdown-breakdown-card { background: #ffffff; border: 1px solid #e5e7eb; border-radius: 10px; padding: 20px; margin-bottom: 24px; }
+.RatingBreakdown-title { font-size: 16px; font-weight: 600; margin-bottom: 16px; }
+.RatingBreakdown-rows { display: flex; flex-direction: column; gap: 12px; }
+.RatingBreakdown-row { display: flex; align-items: center; gap: 12px; }
+.RatingBreakdown-star-label { display: flex; align-items: center; gap: 6px; width: 80px; }
+.RatingBreakdown-star { width: 16px; height: 16px; fill: #f59e0b; }
+.RatingBreakdown-bar { flex: 1; height: 10px; background: #f3f4f6; border-radius: 9999px; overflow: hidden; }
+.RatingBreakdown-bar-fill { height: 100%; background: linear-gradient(90deg, #22c55e, #16a34a); }
+.RatingBreakdown-counts { display: flex; align-items: center; gap: 10px; width: 90px; justify-content: flex-end; }
+.RatingBreakdown-muted { color: #6b7280; }
+.RatingBreakdown-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; padding-top: 16px; border-top: 1px solid #e5e7eb; margin-top: 12px; }
+.RatingBreakdown-stat { text-align: center; }
+.RatingBreakdown-stat-num { font-size: 20px; font-weight: 700; }
+.RatingBreakdown-stat-label { color: #6b7280; font-size: 12px; }

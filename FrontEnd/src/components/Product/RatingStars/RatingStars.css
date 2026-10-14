@@ -1,0 +1,52 @@
+
+/* RatingStars.css */
+.rating-stars2 {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  
+}
+
+.star-svg {
+  flex-shrink: 0;
+  width: 17px;
+  height: 17px;
+}
+
+.ratingstar-number {
+  font-size: 0.75rem;
+  color: #6b7280; /* gray-500 */
+  margin-left: 8px;
+  white-space: nowrap;
+}
+
+/* Mobile optimizations */
+@media (max-width: 480px) {
+  .rating-stars2 {
+    gap: 2px;
+  }
+  
+  .star-svg {
+    width: 16px;
+    height: 16px;
+    scale: 1.2;
+  }
+  
+  .ratingstar-number {
+    font-size: 0.7rem;
+    margin-left: 6px;
+  }
+}
+
+/* Tablet optimizations */
+@media (max-width: 768px) and (min-width: 481px) {
+  .star-svg {
+    width: 15px;
+    height: 15px;
+  }
+  
+  .ratingstar-number {
+    font-size: 0.72rem;
+    margin-left: 7px;
+  }
+}

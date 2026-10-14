@@ -1,0 +1,196 @@
+[
+  {
+    "id": 1,
+    "image": 
+    ["https://i.ibb.co/SDnWK685/Flux-Dev-A-beautifully-arranged-Quilling-Art-Starter-Kit-surro-3.jpg",
+    "https://ideogram.ai/assets/image/lossless/response/yfpuyrrSSKy8CSSlqV2jOQ",
+    "https://ideogram.ai/assets/image/lossless/response/BQ35Bo92S9mT_cKv3YPCdQ",
+    "https://ideogram.ai/assets/image/lossless/response/G1K-idlSSCSgBTCzVwjfIw",
+    "https://images.pexels.com/photos/1090638/pexels-photo-1090638.jpeg",
+    "https://i.ibb.co/VYt0Pysz/Flux-Dev-A-beautifully-arranged-Quilling-Art-Starter-Kit-laid-1.jpg",
+    "https://i.ibb.co/m5ysTf92/Flux-Dev-A-beautifully-arranged-and-colorful-premium-scrapbook-3.jpg",
+    "https://cdn.leonardo.ai/users/1d4822bc-4f00-4b69-a656-b9d83079b145/generations/3ac96f3f-daaf-4f29-96d9-b78c3272f39b/segments/2:4:1/ Flux_Dev_A_beautifully_lit_vibrant_and_artistic_product_image__1.jpg"]
+    ,
+    "title": "Madhubani Folk Art Set",
+    "rating": 4.8,
+    "price": {
+      "actual": 780,
+      "striked": 1050
+    },
+    "inStock": true,
+    "category": "Traditional & Cultural Crafts"
+  },
+  {
+    "id": 2,
+    "image": "https://ideogram.ai/assets/image/lossless/response/yfpuyrrSSKy8CSSlqV2jOQ",
+              
+    "title": "Professional Charcoal Drawing Set",
+    "rating": 4.7,
+    "price": {
+      "actual": 750,
+      "striked": 980
+    },
+    "inStock": true,
+    "category": "Drawing"
+  },
+  {
+    "id": 3,
+    "image": "https://ideogram.ai/assets/image/lossless/response/G1K-idlSSCSgBTCzVwjfIw",
+    "title": "Watercolor Paint Collection",
+    "rating": 4.9,
+    "price": {
+      "actual": 600,
+      "striked": 760
+    },
+    "inStock": true,
+    "category": "Painting"
+  },
+  {
+    "id": 13,
+    "image": "https://images.pexels.com/photos/1090638/pexels-photo-1090638.jpeg",
+    "title": "Wall Decor Collection",
+    "rating": 4.9,
+    "price": {
+      "actual": 600,
+      "striked": 960
+    },
+    "inStock": true,
+    "category": "Painting"
+  }, 
+  {
+    "id": 4,
+    "image": "https://ideogram.ai/assets/image/lossless/response/nbnUTo2RQgO7Gh4Q3ELQJw",
+    "title": "Linocut Printmaking Kit",
+    "rating": 4.5,
+    "price": {
+      "actual": 800,
+      "striked": 990
+    },
+    "inStock": true,
+    "category": "Printmaking"
+  },
+  {
+    "id": 5,
+    "image": "https://cdn.leonardo.ai/users/1d4822bc-4f00-4b69-a656-b9d83079b145/generations/3ac96f3f-daaf-4f29-96d9-b78c3272f39b/segments/2:4:1/Flux_Dev_A_beautifully_lit_vibrant_and_artistic_product_image__1.jpg",
+    "title": "Ceramic Pottery Wheel Set",
+    "rating": 4.6,
+    "price": {
+      "actual": 89.99,
+      "striked": 119.99
+    },
+    "inStock": false,
+    "category": "Traditional & Cultural Crafts"
+  },
+  {
+    "id": 6,
+    "image": "https://ideogram.ai/assets/image/lossless/response/BQ35Bo92S9mT_cKv3YPCdQ",
+    "title": "Calligraphy Master Set",
+    "rating": 4.6,
+    "price": {
+      "actual": 780,
+      "striked": 960
+    },
+    "inStock": true,
+    "category": "Calligraphy"
+  },
+  {
+    "id": 15,
+    "image": "https://images.pexels.com/photos/1129413/pexels-photo-1129413.jpeg",
+    "title": "Wall Decor Collection Set" ,
+    "rating": 4.6,
+    "price": {
+      "actual": 700,
+      "striked": 1200
+    },
+    "inStock": true,
+    "category": "Traditional & Cultural Crafts"
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co/m5ysTf92/Flux-Dev-A-beautifully-arranged-and-colorful-premium-scrapbook-3.jpg",
+    "title": "Premium Scrapbooking Kit",
+    "rating": 4.3,
+    "price": {
+      "actual": 750,
+      "striked": 940
+    },
+    "inStock": true,
+    "category": "Paper Crafts"
+  },
+  {
+    "id": 8,
+    "image": "https://ideogram.ai/assets/image/lossless/response/6i3obRvqTjSXKzpJBmYGWw",
+    "title": "Japanese Origami Paper Pack",
+    "rating": 4.4,
+    "price": {
+      "actual": 730,
+      "striked": 950
+    },
+    "inStock": true,
+    "category": "Paper Crafts"
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co/VYt0Pysz/Flux-Dev-A-beautifully-arranged-Quilling-Art-Starter-Kit-laid-1.jpg",
+    "title": "Quilling Art Starter Kit",
+    "rating": 4.2,
+    "price": {
+      "actual": 800,
+      "striked": 970
+    },
+    "inStock": true,
+    "category": "Paper Crafts"
+  },
+  
+  {
+    "id": 10,
+    "image": "https://cdn.leonardo.ai/users/1d4822bc-4f00-4b69-a656-b9d83079b145/generations/727d1cd0-7bb5-4fe2-9381-fa7c56750053/segments/2:4:1/Flux_Dev_updatedpromptA_beautifully_styled_and_vibrant_image_f_1.jpg",
+    "title": "Handmade Card Making Set",
+    "rating": 4.5,
+    "price": {
+      "actual": 770,
+      "striked": 1080
+    },
+    "inStock": true,
+    "category": "Paper Crafts"
+  },
+  {
+    "id": 11,
+    "image": "https://fal.media/files/lion/1Mm0JJUwMAhDVBmFQg2aA_06f74f21fc384abbbc3be8a03a74cf82.jpg",
+    "title": "Papier Mache Craft Kit",
+    "rating": 4.0,
+    "price": {
+      "actual": 760,
+      "striked": 950
+    },
+    "inStock": true,
+    "category": "Paper Crafts"
+  },
+  {
+    "id": 12,
+    "image": "https://cdn.leonardo.ai/users/1d4822bc-4f00-4b69-a656-b9d83079b145/generations/94433805-91e7-4513-9fbe-6e16a499f852/segments/2:4:1/Flux_Dev_updatedpromptA_vibrant_and_intricate_Tibetan_Sand_Art_1.jpg",
+    "title": "Tibetan Sand Art Kit",
+    "rating": 4.7,
+    "price": {
+      "actual": 740,
+      "striked": 930
+    },
+    "inStock": true,
+    "category": "Traditional & Cultural Crafts"
+  },
+  
+  {
+    "id": 14,
+    "image": "https://m.media-amazon.com/images/I/71XSrqToV-L._SL1200_.jpg",
+    "title": "7 Horses Realistic Painting " ,
+    "rating": 4.6,
+    "price": {
+      "actual": 700,
+      "striked": 1500
+    },
+    "inStock": false,
+    "category": "Traditional & Cultural Crafts"
+  }
+  
+  
+]

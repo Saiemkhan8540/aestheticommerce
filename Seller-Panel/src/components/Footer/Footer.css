@@ -1,0 +1,126 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  background-color: #ffffff41;
+  padding: 4rem 2rem 2rem;
+  font-family: Tahoma;
+  box-shadow: 0 -1px 8px rgba(0, 0, 0, 0.05);
+  z-index: 50;
+}
+.footer-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: 2fr 1.3fr 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.bg-footer {
+  background: #ffffffde url("https://www.creativehatti.com/wp-content/uploads/edd/2021/05/India-vector-skyline-01-large.jpg") no-repeat top center;
+  background-size: cover;
+  background-position: center center;
+  background-blend-mode: lighten;
+  filter: opacity(0.85) contrast(1.0);
+}
+
+.footer-logo {
+  margin-left: 2rem;
+}
+
+.footer-logo-img {
+  margin-top: 22px;
+  width: 130px;
+  height: auto;
+  object-fit: contain;
+}
+
+.footer-desc {
+
+  font-size: 0.5rem;
+  color: #444444c4;
+  margin-left: 0.2rem;
+  margin-top: 1rem;
+}
+
+.footer-social-bottom {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.footer-social-bottom h3 {
+  font-size: 1.1rem;
+  color: #20bfa5;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.social-icons a {
+  color: #20bfa5;
+  font-size: 1.6rem;
+  transition: transform 0.5s ease;
+}
+.social-icons a:hover {
+  color: #131414;
+  transform: scale(1);
+}
+
+.footer-section h3 {
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #20bfa5;
+}
+.footer-section p, .footer-section ul li {
+  font-size: 0.9rem;
+}
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-section ul li {
+  margin: 0.5rem 0;
+  transition: all 0.5s ease-in-out;
+}
+.footer-section ul li a {
+  color: #000;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+.footer-section ul li a:hover {
+  color: #000;
+  transform: scale(1.1);
+  font-weight: 500;
+}
+
+.footer-mail {
+  color: #000;
+  text-decoration: none;
+  transition: color 0.5s ease, transform 0.5s ease;
+}
+.footer-mail:hover {
+  color: #000;
+  transform: scale(1.05);
+  font-weight: 600;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 0.85rem;
+  margin-top: 2rem;
+  color: #666;
+  border-top: 1px solid #20bfa5;
+  padding-top: 1rem;
+}

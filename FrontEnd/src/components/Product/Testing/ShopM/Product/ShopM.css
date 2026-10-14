@@ -1,0 +1,274 @@
+/* Main container */
+
+.shop-container {
+  max-width: 1370px;
+  margin: 0 auto;
+  padding: 0 1rem 4rem; /* Added horizontal padding to prevent edge touching */
+  min-height: 70vh;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.filter-sortbywrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* Title */
+.shop-title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-top: 0.7rem;
+  text-align:center ;
+}
+
+/* Toolbar */
+.shop-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0 1.5rem;
+  flex-wrap: wrap; /* Changed to wrap for small devices */
+  gap: 1rem;
+  width: 100%;
+}
+
+/* Filter button */
+.filter-button-container {
+  display: flex;
+  align-items: center;
+}
+
+.filter-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #20bfa5;
+  cursor: pointer;
+  border-radius: 4px; /* Added slight radius for consistency */
+}
+
+.filter-button:hover {
+  background-color: #83efdd;
+}
+
+.filter-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+/* Sort container */
+.sort-container-shopm {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-left: auto;
+  padding-right: 0.5rem;
+}
+
+.results-count {
+  font-size: 0.875rem;
+  color: #634b5e;
+}
+.results-count-full { display: none; }
+.results-count-short { display: inline; }
+
+/* Products container */
+.products-container {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+/* Product grid - Unified Grid System */
+.product-grid-shopm {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 2rem;
+  justify-content: center; 
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.product-grid-shopm > * {
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+@media (min-width: 1400px) {
+  .product-grid-shopm {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media (max-width: 1399px) and (min-width: 1100px) {
+  .product-grid-shopm {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 1099px) and (min-width: 800px) {
+  .product-grid-shopm {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .shop-toolbar {
+    padding: 0 0.5rem;
+  }
+}
+
+/* Tablet / Large Mobile */
+@media (max-width: 799px) and (min-width: 601px) {
+  .product-grid-shopm {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+/* Mobile Responsiveness - FORCING 2 COLUMNS FOR >= 360px */
+@media (max-width: 600px) {
+  .shop-container {
+    padding: 0 0 2rem; /* Remove outer padding */
+    overflow-x: hidden;
+  }
+  
+  .shop-title, .shop-toolbar {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .shop-toolbar {
+    margin-top: 1rem;
+  }
+  
+  .sort-container-shopm {
+    margin-top: 0; 
+    padding-right: 0;
+  }
+
+  .product-grid-shopm {
+    display: grid; 
+    grid-template-columns: repeat(2, minmax(0, 1fr)); /* Crucial: minmax(0, 1fr) prevents blowout */
+    gap: 0.8rem;
+    row-gap: 1.5rem;
+    padding: 0 1rem; /* Apply padding strictly to the grid */
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  .results-count-full { display: none; }
+  .results-count-short { display: inline; }
+}
+
+/* Very small devices < 360px */
+@media (max-width: 359px) {
+  .product-grid-shopm {
+    grid-template-columns: minmax(0, 1fr); /* Drop to 1 column for very small screens */
+    gap: 1.5rem;
+    justify-items: center;
+    padding: 0 1.5rem; /* Slightly larger padding for 1-column layout */
+  }
+}
+
+@media (max-width: 480px) {
+  .shop-title {
+    font-size: 1.5rem;
+  }
+  .results-count {
+    font-size: 0.75rem;
+  }
+}
+
+
+
+
+/* No products message */
+.no-products {
+  text-align: center;
+  padding: 2rem;
+}
+
+.no-products h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #1f2937;
+}
+
+.no-products p {
+  color: #6b7280;
+}
+
+.results-count {
+  font-size: 14px;
+  color: #555;
+}
+
+.pagination-container {
+  margin: 40px 0;
+}
+
+
+
+
+
+/* Page title styles */
+.shop-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+
+
+
+.results-count {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.products-container {
+  margin-top: 30px;
+}
+
+
+
+.no-products {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.no-products h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.no-products p {
+  font-size: 1rem;
+  color: #666;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+/* Two cards per row target and smaller card size on small screens */
+
+
+/* Center pagination already handled by its CSS, ensure spacing */
+.pagination-container { justify-content: center; }
+
+
+
+
+

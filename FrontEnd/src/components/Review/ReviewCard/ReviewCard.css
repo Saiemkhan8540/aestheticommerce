@@ -1,0 +1,235 @@
+.ReviewCard-review-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+}
+
+.ReviewCard-review-top {
+  display: flex;
+  gap: 16px;
+}
+
+.ReviewCard-avatar-circle {
+  width: 48px;
+  height: 48px;
+  border-radius: 9999px;
+  background: #f3f4f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.ReviewCard-review-content {
+  flex: 1;
+  min-width: 0;
+  margin-top: -11px;
+}
+
+.ReviewCard-review-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  /* margin-bottom: px; */
+}
+
+.ReviewCard-review-header h4 {
+  font-weight: 600;
+}
+
+.ReviewCard-dot {
+  color: #9ca3af;
+}
+
+.ReviewCard-mb-8 {
+  margin-bottom: 8px;
+}
+
+.ReviewCard-review-text {
+  color: #111827;
+  line-height: 1.6;
+  margin-bottom: 12px;
+  margin-top: -11px;
+  
+}
+
+.ReviewCard-link-btn {
+  background: none;
+  border: none;
+  color: #2563eb;
+  cursor: pointer;
+  padding: 0;
+}
+
+.ReviewCard-review-images {
+  display: flex;
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.ReviewCard-review-images img {
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 1px solid #e5e7eb;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.ReviewCard-review-images img:hover {
+  transform: scale(1.05);
+}
+
+.ReviewCard-review-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.ReviewCard-ghost-btn {
+  background: none;
+  border: none;
+  color: #6b7280;
+  cursor: pointer;
+  display: flex;
+  gap: 0.2rem;
+  
+}
+
+/* Image Modal Styles */
+.ReviewCard-image-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.ReviewCard-image-modal-content {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Image Counter Styles */
+.image-counter {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  z-index: 10;
+  backdrop-filter: blur(10px);
+}
+
+.ReviewCard-image-modal-content img {
+  max-width: 90vw;
+  max-height: 80vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 15px;
+  cursor: default;
+}
+
+.ReviewCard-image-modal-close {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 15px;
+  transition: background-color 0.2s;
+}
+
+.ReviewCard-image-modal-close:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.ReviewCard-image-modal-prev,
+.ReviewCard-image-modal-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ReviewCard-image-modal-prev:hover,
+.ReviewCard-image-modal-next:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.ReviewCard-image-modal-prev {
+  left: -60px;
+}
+
+.ReviewCard-image-modal-next {
+  right: -60px;
+}
+
+/* Hide navigation buttons if only one image */
+.ReviewCard-image-modal-content:has(img:only-child) .ReviewCard-image-modal-prev,
+.ReviewCard-image-modal-content:has(img:only-child) .ReviewCard-image-modal-next {
+  display: none;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+  .ReviewCard-image-modal-prev,
+  .ReviewCard-image-modal-next {
+    padding: 8px;
+    font-size: 20px;
+  }
+  
+  .ReviewCard-image-modal-prev {
+    left: 10px;
+  }
+  
+  .ReviewCard-image-modal-next {
+    right: 10px;
+  }
+  
+  .ReviewCard-image-modal-close {
+    top: 10px;
+    right: 10px;
+  }
+  
+  .image-counter {
+    top: 10px;
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+}

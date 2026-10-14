@@ -1,0 +1,204 @@
+body, .dashboard-background {
+  font-family: 'Poppins', Arial, sans-serif;
+  background: #fafbfc;
+  margin: 0;
+}
+
+.dashboard-overview-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 12px 0 12px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #23272d;
+}
+
+.dashboard-overview-desc {
+  color: #636b7b;
+  font-size: 1em;
+  margin-bottom: 32px;
+  font-weight: 400;
+}
+
+/* Welcome Box Styling */
+.dashboard-welcome-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e6faf7;
+  border-left: 5px solid #20BFA5;
+  border-radius: 14px;
+  padding: 32px 28px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
+  flex-wrap: wrap;
+}
+
+.dashboard-welcome-text {
+  flex: 1;
+  min-width: 250px;
+}
+
+.dashboard-welcome-text p {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 18px;
+  line-height: 1.4;
+}
+
+.dashboard-add-btn {
+  background-color: #20BFA5;
+  color: white;
+  padding: 10px 20px;
+  font-size: 0.95em;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.2s ease;
+  
+  text-decoration: none;
+  
+  outline: none;
+  
+
+
+}
+.dashboard-welcome-text a {
+  text-decoration: none;
+}
+
+.dashboard-add-btn:hover {
+  background-color: #1aa891;
+}
+
+.add-icon {
+  font-size: 1.2em;
+  margin-right: 8px;
+}
+
+.dashboard-welcome-image {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  justify-content: center;
+}
+
+.dashboard-welcome-image img {
+  max-width: 220px;
+  max-height: 160px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Cards Section */
+.dashboard-cards-row {
+  display: flex;
+  gap: 28px;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  margin-bottom: 40px; /* ✅ Added gap below cards */
+}
+
+.dashboard-card-box {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 6px 32px rgba(44, 62, 80, 0.13);
+  min-width: 240px;
+  max-width: 240px;
+  flex: 1 1 30px;
+  padding: 28px 24px 22px 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border: 1.5px solid #ebecf0;
+  transition: box-shadow 0.25s, border-color 0.25s;
+  position: relative;
+}
+
+.dashboard-card-box:hover {
+  box-shadow: 0 12px 40px rgba(44, 62, 80, 0.18);
+  border-color: #d2d8df;
+}
+
+.dashboard-card-icon {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 24px;
+  color: #20BFA5;
+  opacity: 0.7;
+}
+
+.dashboard-card-label {
+  font-size: 1.06em;
+  color: #343b50;
+  margin-bottom: 13px;
+  font-weight: 500;
+  letter-spacing: 0.15px;
+}
+
+.dashboard-card-value {
+  font-size: 1.75em;
+  font-weight: 700;
+  color: #22283d;
+  margin-bottom: 10px;
+  letter-spacing: -1px;
+}
+
+.dashboard-card-trend {
+  font-size: 1em;
+  margin-top: 8px;
+}
+
+.dashboard-card-trend-up {
+  color: #20BFA5;
+  font-weight: 600;
+}
+
+.dashboard-card-trend-desc {
+  color: #8d98af;
+  margin-left: 5px;
+  font-weight: 400;
+}
+
+/* Table Section */
+.dashboard-table-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 40px auto; /* ✅ More breathing space below table */
+  padding-top: 10px; /* ✅ Small separation from cards */
+}
+
+/* OrderTable layout fix */
+.OrderTable-root {
+  width: 100%;
+  min-width: 0;
+}
+
+/* ProductTable layout fix */
+.ProductTable-root {
+  width: 100%;
+  min-width: 0;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 28px rgba(44, 62, 80, 0.12);
+  padding: 20px; /* ✅ Gives table a card-like feel */
+  border: 1.5px solid #ebecf0;
+}
+
+/* Responsive improvement for cards */
+@media (max-width: 900px) {
+  .dashboard-cards-row {
+    flex-wrap: wrap; /* ✅ Stack cards instead of overflowing */
+    gap: 20px;
+    justify-content: center;
+  }
+}

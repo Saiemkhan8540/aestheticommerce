@@ -1,0 +1,341 @@
+.banner-page {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.banner-header {
+  margin-bottom: 2rem;
+}
+
+.banner-header h1 {
+  font-size: 2rem;
+  color: #333;
+  margin: 0;
+}
+
+.banner-header p {
+  color: #666;
+  margin: 0.5rem 0 0 0;
+}
+
+.banner-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+}
+
+@media (min-width: 1024px) {
+  .banner-content {
+    grid-template-columns: 350px 1fr;
+  }
+}
+
+.banner-form-section h2,
+.banner-list-section h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  color: #444;
+  border-bottom: 2px solid #20BFA5;
+  padding-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.banner-form {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.form-group input[type="text"] {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.image-upload-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#banner-upload {
+  display: none;
+}
+
+.upload-btn {
+  display: inline-block;
+  padding: 0.75rem 1rem;
+  background: #f0f0f0;
+  color: #555;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px dashed #ccc;
+  transition: all 0.2s;
+}
+
+.upload-btn:hover {
+  background: #e8e8e8;
+  border-color: #20BFA5;
+}
+
+.preview-container {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+
+.banner-preview-img {
+  width: 100%;
+  display: block;
+}
+
+.helper-text {
+  font-size: 0.75rem;
+  color: #888;
+  margin: 0;
+}
+
+.checkbox-group .checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.submit-btn {
+  background: #20BFA5;
+  color: #fff;
+  border: none;
+  padding: 0.85rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.submit-btn:hover {
+  background: #1aa892;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.form-actions .submit-btn {
+  flex: 1;
+}
+
+.cancel-btn {
+  background: #f5f5f5;
+  color: #666;
+  border: 1px solid #ddd;
+  padding: 0.85rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.cancel-btn:hover {
+  background: #e8e8e8;
+  color: #333;
+}
+
+.submit-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+/* Table Styles */
+.banner-table-wrapper {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.banner-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.banner-table th,
+.banner-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.banner-table th {
+  background: #fafafa;
+  font-weight: 600;
+  color: #666;
+}
+
+.table-img {
+  width: 120px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 4px;
+  display: block;
+}
+
+.url-text {
+  display: inline-block;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #20BFA5;
+}
+
+/* Status Toggle Styles */
+.status-cell {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.status-text {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.status-text.active {
+  color: #20BFA5;
+}
+
+.status-text.inactive {
+  color: #888;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 22px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #20BFA5;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #20BFA5;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(18px);
+  -ms-transform: translateX(18px);
+  transform: translateX(18px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 22px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.edit-btn {
+  background: #e6f7f4;
+  color: #20BFA5;
+  border: 1px solid #c7ece7;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.edit-btn:hover {
+  background: #20BFA5;
+  color: #fff;
+}
+
+.delete-btn {
+  background: #fff0f0;
+  color: #ff4d4d;
+  border: 1px solid #ffcccc;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.delete-btn:hover {
+  background: #ff4d4d;
+  color: #fff;
+}
+
+.no-data {
+  text-align: center;
+  padding: 3rem;
+  color: #999;
+  background: #fafafa;
+  border-radius: 12px;
+}

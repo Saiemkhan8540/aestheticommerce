@@ -1,0 +1,217 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 64px);
+  background: #f9fafb;
+  padding: 40px 60px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.add-product {
+  flex: 1;
+  width: 100%;
+  max-width: 1700px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 40px 50px;
+  border-radius: 10px;
+  position: relative;
+  border: 1px solid #20BFA5;
+  box-shadow: 0 6px 15px 0 #20BFA580;
+}
+
+.add-product h2 {
+  text-align: center;
+  font-size: 32px;
+  color: #20BFA5;
+  margin-bottom: 30px;
+}
+
+.add-product label,
+.form-col label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.add-product input,
+.add-product select,
+.add-product textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: inherit;
+  line-height: 1.4;
+  background: #fff;
+  transition: border-color 0.2s ease;
+}
+
+.add-product input:focus,
+.add-product select:focus,
+.add-product textarea:focus {
+  border-color: #20BFA5;
+  outline: none;
+}
+
+.big-textarea {
+  min-height: 150px;
+}
+
+.product-form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.form-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 250px;
+}
+
+.publish-btn {
+  background: #20BFA5;
+  color: white;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 600;
+  transition: background 0.3s ease, transform 0.1s ease;
+}
+.publish-btn:hover {
+  background: #17a18b;
+}
+.publish-btn:active {
+  transform: scale(0.98);
+}
+
+.add-product p {
+  /* text-align: center;
+  font-size: 15px; */
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+.close-btn:hover {
+  color: #20BFA5;
+}
+
+
+.big-textarea {
+  width: 100%;
+  min-height: 180px;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  font-family: inherit;
+  resize: vertical;
+}
+
+/* MDX Editor wrapper */
+.mdx-wrapper {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  min-height: 180px;
+  background: #fff;
+  padding: 0;
+  transition: border-color 0.2s ease;
+}
+
+/* TARGET INTERNAL MDX CLASSES PROPERLY */
+.mdx-wrapper :global(.mdxeditor) {
+  min-height: 180px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+/* Target actual editable content area */
+.mdx-wrapper :global([contenteditable="true"]) {
+  min-height: 150px !important;
+  padding: 12px !important;
+  display: block !important;
+  text-align: left !important;
+}
+
+/* Optional: Fix toolbar */
+.mdx-wrapper :global(.mdxeditor-toolbar) {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.mdx-wrapper:focus-within {
+  border-color: #20BFA5;
+  outline: none;
+}
+
+/* 🔥 FIX LIST INDENTATION IN MDX EDITOR */
+.mdx-wrapper :global(ul),
+.mdx-wrapper :global(ol) {
+  padding-left: 1.5rem !important;
+  margin-left: 0 !important;
+}
+
+.mdx-wrapper :global(li) {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  line-height: 1.6;
+}
+
+.mdx-wrapper :global(p) {
+  margin: 0 0 8px 0;
+}
+
+.video-preview-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.remove-video-btn {
+  position: absolute;
+  top: 15px;
+  right: 5px;
+  background: rgba(220, 38, 38, 0.8);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  line-height: 1;
+  transition: background 0.2s;
+}
+
+.remove-video-btn:hover {
+  background: #dc2626;
+}
+
+
+
